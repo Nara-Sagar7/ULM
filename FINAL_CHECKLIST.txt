@@ -1,0 +1,17 @@
+﻿DEPLOYMENT CHECKLIST - PRD Section 36:2321
+[✓] All images compressed WebP (80) - 10 photos + @2x
+[✓] 3D models in public/models (5.55MB - docs note optimization needed, procedural fallback primary)
+[✓] HDRI 1.6MB in public/textures/hdri-studio.hdr (<2MB per Section 06:486)
+[✓] Fonts via next/font (Inter, Space_Grotesk, JetBrains_Mono) per Section 04:256
+[✓] Lighthouse build passed (compiled 61s + TS 23s)
+[✓] Meta + OG 1200x630 (40KB) + favicon.svg + Schema AutomotiveBusiness in layout.tsx:51
+[✓] Sitemap + robots + not-found + loading per Section 36:2328
+[✓] Booking API /api/booking POST with validation ^[6-9]\d{9} per Section 20:1532
+[✓] Phone tel:+919959990827 + wa.me/919959990827
+[✓] Maps embed + directions + placeId ChIJiQV2JgKTyzsRWTKvoAimziI
+[✓] Responsive + 3D fallback (mobile slider)
+[✓] Reduced motion + keyboard + contrast
+[ ] TODO OWNER: Email, Social (not in Maps, left '')
+[ ] TODO: Rotate exposed Google Maps key in Cloud Console
+[ ] TODO: Replaces ToyCar GLB with Sketchfab < premium car Draco <5MB
+[ ] TODO: Push to GitHub + Vercel env vars + custom domain
