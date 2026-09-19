@@ -1,0 +1,2453 @@
+================================================================================
+ULTIMATE MECHANICS — COMPLETE PRODUCTION-READY PRD
+================================================================================
+VERSION: 2.0 (ENHANCED)
+DATE: SEPTEMBER 2026
+STATUS: ALL MISSING ASSETS, CODE, SOURCES & SPECIFICATIONS ADDED
+================================================================================
+
+TABLE OF CONTENTS:
+──────────────────
+SECTION 01: BRAND & BUSINESS INFORMATION
+SECTION 02: CORE CREATIVE DIRECTION
+SECTION 03: DESIGN LANGUAGE & TOKENS (EXACT VALUES)
+SECTION 04: TYPOGRAPHY (EXACT FONTS + CODE)
+SECTION 05: LOGO DESIGN (FULL SVG CODE)
+SECTION 06: 3D MODELS (ACTUAL SOURCES + URLS)
+SECTION 07: IMAGES (ACTUAL SOURCES + URLS)
+SECTION 08: ICONS (LIBRARY + MAPPING)
+SECTION 09: HERO SECTION (FULL SPEC)
+SECTION 10: 3D AUTOMOTIVE EXPERIENCE (FULL CODE)
+SECTION 11: CAR DISASSEMBLY EXPERIENCE (FULL CODE)
+SECTION 12: REASSEMBLY ANIMATION (FULL CODE)
+SECTION 13: INTERACTIVE VEHICLE INSPECTION (FULL CODE)
+SECTION 14: SERVICES SECTION (FULL SPEC)
+SECTION 15: WHY ULTIMATE MECHANICS (FULL SPEC)
+SECTION 16: WORKSHOP EXPERIENCE (FULL SPEC)
+SECTION 17: BEFORE/AFTER EXPERIENCE (FULL SPEC)
+SECTION 18: CUSTOMER TRUST SECTION (FULL SPEC)
+SECTION 19: LOCATION SECTION (FULL CODE)
+SECTION 20: BOOKING FORM (FULL CODE)
+SECTION 21: PHONE + WHATSAPP (FULL CODE)
+SECTION 22: NAVIGATION (FULL SPEC)
+SECTION 23: MOTION DESIGN & ANIMATIONS (FULL CODE)
+SECTION 24: PAGE TRANSITIONS & LOADING (FULL CODE)
+SECTION 25: RESPONSIVE DESIGN & FALLBACKS
+SECTION 26: PERFORMANCE (BUDGETS + STRATEGY)
+SECTION 27: SEO (FULL SCHEMA + META CODE)
+SECTION 28: ACCESSIBILITY
+SECTION 29: FOOTER (FULL SPEC)
+SECTION 30: TECHNICAL IMPLEMENTATION
+SECTION 31: FILE STRUCTURE (COMPLETE)
+SECTION 32: CONFIG FILE (ALL BUSINESS DATA)
+SECTION 33: ENVIRONMENT VARIABLES
+SECTION 34: FALLBACK ASSETS
+SECTION 35: ASSET OPTIMIZATION PIPELINE
+SECTION 36: DEPLOYMENT CHECKLIST
+SECTION 37: IMPORTANT CONSTRAINTS
+SECTION 38: FINAL QUALITY BAR
+
+================================================================================
+SECTION 01: BRAND & BUSINESS INFORMATION
+================================================================================
+
+Business Name: ULTIMATE MECHANICS
+
+Location:
+  No. 605, Road Number 3A,
+  Gopal Nagar, Shilpa Avenue Colony,
+  Hafeezpet, Hyderabad,
+  Telangana 500085, India
+
+Phone: 099599 90827
+Phone (raw format): +919959990827
+WhatsApp: 919959990827 (use if confirmed)
+
+Google Maps Plus Code: F9JF+XX Hyderabad, Telangana
+
+Business Category: Car Inspection / Automobile Service & Repair Workshop
+
+Google Rating: 5.0 ★
+Review Count: 68 reviews
+Ownership Label: Women-owned
+
+Target Service Areas:
+  - Hafeezpet
+  - Gopal Nagar
+  - Shilpa Avenue Colony
+  - Hydernagar
+  - Surrounding Hyderabad areas
+
+Brand Message:
+  Primary:   "PRECISION IN EVERY DETAIL."
+  Secondary: "ENGINEERED FOR THE ROAD AHEAD."
+  Supporting: "Professional automotive inspection, service and care
+              with attention to every component that matters."
+
+IMPORTANT:
+  Do not invent certifications, awards, manufacturer authorizations,
+  dealer partnerships, services, prices, customer testimonials,
+  or technical claims that have not been provided.
+  Where business information is unavailable, create elegant placeholder
+  content that can easily be replaced from the CMS/configuration.
+
+================================================================================
+SECTION 02: CORE CREATIVE DIRECTION
+================================================================================
+
+The website should feel like:
+  Luxury automotive brand
+  + Advanced engineering laboratory
+  + Premium car service center
+  + Modern technology company
+
+It must NOT look like a generic local garage website.
+
+Visual references in spirit (DO NOT COPY):
+  - Porsche-level premium presentation
+  - BMW/Mercedes-style engineering confidence
+  - Luxury detailing studio
+  - High-end automotive technology website
+  - Modern cinematic 3D product website
+
+Create a completely original visual identity for Ultimate Mechanics.
+
+Emotional Progression for Visitors:
+  1. WOW
+  2. TRUST
+  3. TECHNOLOGY
+  4. EXPERTISE
+  5. TRANSPARENCY
+  6. ACTION
+
+================================================================================
+SECTION 03: DESIGN LANGUAGE & TOKENS (EXACT VALUES)
+================================================================================
+
+COLOR PALETTE — EXACT HEX CODES:
+─────────────────────────────────
+
+/* Primary Backgrounds */
+--um-black:        #0A0A0B;
+--um-graphite:     #141416;
+--um-gunmetal:     #1C1C1F;
+--um-carbon:       #222225;
+--um-steel:        #2A2A2E;
+
+/* Surfaces & Cards */
+--um-surface:      #1A1A1E;
+--um-surface-2:    #242428;
+--um-surface-3:    #2E2E33;
+
+/* Metallics */
+--um-silver:       #C0C0C8;
+--um-chrome:       #E8E8EC;
+--um-titanium:     #8A8A92;
+--um-platinum:     #B8B8C0;
+
+/* Accent — Single Restrained Accent (Warm Gold) */
+--um-accent:       #D4A853;
+--um-accent-dim:   #B8923F;
+--um-accent-glow:  rgba(212,168,83,0.15);
+
+/* Text */
+--um-text:         #F5F5F7;
+--um-text-dim:     #9A9AA2;
+--um-text-muted:   #6B6B73;
+
+/* Borders & Lines */
+--um-border:       rgba(255,255,255,0.06);
+--um-border-2:     rgba(255,255,255,0.10);
+--um-line:         rgba(255,255,255,0.04);
+
+/* Glassmorphism */
+--um-glass:        rgba(20,20,22,0.65);
+--um-glass-border: rgba(255,255,255,0.08);
+
+/* Status */
+--um-success:      #4ADE80;
+--um-error:        #F87171;
+--um-warning:      #FBBF24;
+
+/* 3D Scene Colors */
+--um-scene-bg:     #0D0D0F;
+--um-scene-floor:  #1A1A1C;
+--um-scene-light:  #FFFFFF;
+--um-scene-accent: rgba(212,168,83,0.3);
+
+TAILWIND CONFIG ADDITION:
+─────────────────────────
+// tailwind.config.ts → theme.extend.colors
+
+colors: {
+  'um-black':      '#0A0A0B',
+  'um-graphite':   '#141416',
+  'um-gunmetal':   '#1C1C1F',
+  'um-carbon':     '#222225',
+  'um-steel':      '#2A2A2E',
+  'um-surface':    '#1A1A1E',
+  'um-surface-2':  '#242428',
+  'um-surface-3':  '#2E2E33',
+  'um-silver':     '#C0C0C8',
+  'um-chrome':     '#E8E8EC',
+  'um-titanium':   '#8A8A92',
+  'um-platinum':   '#B8B8C0',
+  'um-accent':     '#D4A853',
+  'um-accent-dim': '#B8923F',
+  'um-text':       '#F5F5F7',
+  'um-text-dim':   '#9A9AA2',
+  'um-text-muted': '#6B6B73',
+  'um-border':     'rgba(255,255,255,0.06)',
+  'um-border-2':   'rgba(255,255,255,0.10)',
+  'um-line':       'rgba(255,255,255,0.04)',
+  'um-glass':      'rgba(20,20,22,0.65)',
+  'um-glass-border':'rgba(255,255,255,0.08)',
+  'um-success':    '#4ADE80',
+  'um-error':      '#F87171',
+  'um-warning':    '#FBBF24',
+}
+
+DESIGN PRINCIPLES:
+──────────────────
+- Deep black backgrounds
+- Graphite and gunmetal surfaces
+- Metallic textures and reflections
+- Subtle silver typography
+- Controlled white text
+- Single warm gold accent (#D4A853)
+- Glassmorphism for cards and overlays
+- Fine technical grid patterns
+- Subtle blueprint elements
+- Precision lines
+- Micro-interactions
+- Smooth transitions
+- Depth through shadows
+- Realistic automotive materials
+- Cinematic lighting in 3D scenes
+
+AVOID:
+- Excessive gradients
+- Cheap neon effects
+- Cartoonish graphics
+- Cluttered UI
+- Multiple accent colors
+
+================================================================================
+SECTION 04: TYPOGRAPHY (EXACT FONTS + CODE)
+================================================================================
+
+FONT SELECTION:
+───────────────
+1. HEADLINES / DISPLAY: Space Grotesk (weights: 300-700)
+2. BODY TEXT:           Inter (weights: 300-900)
+3. TECHNICAL / LABELS:  JetBrains Mono (weights: 300-500)
+
+HTML HEAD LOADING CODE:
+───────────────────────
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap"
+  rel="stylesheet"
+/>
+
+NEXT.JS FONT CONFIGURATION:
+───────────────────────────
+// app/layout.tsx
+import { Inter, Space_Grotesk, JetBrains_Mono } from 'next/font/google';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-space-grotesk',
+  display: 'swap',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-jetbrains-mono',
+  display: 'swap',
+});
+
+TAILWIND FONT CONFIG:
+─────────────────────
+// tailwind.config.ts → theme.extend.fontFamily
+fontFamily: {
+  sans:    ['var(--font-inter)', 'system-ui', 'sans-serif'],
+  display: ['var(--font-space-grotesk)', 'var(--font-inter)', 'sans-serif'],
+  mono:    ['var(--font-jetbrains-mono)', 'monospace'],
+}
+
+TYPOGRAPHY USAGE RULES:
+───────────────────────
+H1 Hero:        Space Grotesk 700, tracking-tight, uppercase, text-5xl md:text-7xl
+H2 Sections:    Space Grotesk 600, tracking-tight, text-3xl md:text-5xl
+H3 Cards:       Inter 600, text-lg md:text-xl
+H4 Subheadings: Inter 500, text-base
+Body:           Inter 400, text-um-text-dim, text-sm md:text-base, leading-relaxed
+Labels/Tags:    JetBrains Mono 400, uppercase, tracking-[0.2em], text-xs
+Buttons:        Inter 600, uppercase, tracking-wider, text-sm
+Nav Links:      Inter 500, text-sm, tracking-wide
+Technical Data: JetBrains Mono 400, text-xs
+Captions:       Inter 300, text-xs, text-um-text-muted
+
+================================================================================
+SECTION 05: LOGO DESIGN (FULL SVG CODE)
+================================================================================
+
+REQUIREMENTS:
+─────────────
+- Professional, original logo
+- Communicates: precision, mechanical engineering, automotive expertise,
+  trust, premium quality, performance, technical excellence
+- Icon + wordmark system
+- Mechanical "U" combined with gear geometry / precision lines
+- NOT generic clip-art wrench
+- NOT cheap local mechanic look
+
+MUST WORK IN:
+─────────────
+1. Website header
+2. Dark background
+3. Light background
+4. Vehicle sticker
+5. Workshop signage
+6. Business card
+7. Social media profile
+8. Favicon
+
+DELIVERABLES:
+─────────────
+- Primary logo (icon + wordmark)
+- Compact icon only
+- Monochrome version
+- Favicon
+
+PRIMARY LOGO SVG:
+─────────────────
+<!-- /public/logo-primary.svg -->
+<svg width="280" height="48" viewBox="0 0 280 48" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon: Mechanical U with gear geometry -->
+  <g>
+    <!-- Outer gear ring segment -->
+    <path d="M8 12 L12 8 L16 8 L20 12 L20 16 L24 16 L24 20
+             L24 32 L20 36 L16 36 L12 36 L8 32 L8 20 L8 16 L4 16
+             L4 12 Z"
+          fill="none" stroke="#D4A853" stroke-width="1.5"/>
+    <!-- Inner U shape -->
+    <path d="M11 14 L11 28 Q11 33 16 33 Q21 33 21 28 L21 14"
+          fill="none" stroke="#F5F5F7" stroke-width="2.5"
+          stroke-linecap="round"/>
+    <!-- Precision tick marks -->
+    <line x1="16" y1="8" x2="16" y2="11" stroke="#D4A853" stroke-width="1"/>
+    <line x1="16" y1="33" x2="16" y2="36" stroke="#D4A853" stroke-width="1"/>
+    <line x1="8" y1="24" x2="11" y2="24" stroke="#D4A853" stroke-width="1"/>
+    <line x1="21" y1="24" x2="24" y2="24" stroke="#D4A853" stroke-width="1"/>
+    <!-- Center precision dot -->
+    <circle cx="16" cy="24" r="1.5" fill="#D4A853"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="36" y="20" font-family="Space Grotesk, sans-serif"
+        font-weight="700" font-size="16" letter-spacing="3"
+        fill="#F5F5F7">ULTIMATE</text>
+  <text x="36" y="38" font-family="Space Grotesk, sans-serif"
+        font-weight="400" font-size="16" letter-spacing="3"
+        fill="#9A9AA2">MECHANICS</text>
+</svg>
+
+COMPACT ICON SVG (FAVICON + MOBILE):
+────────────────────────────────────
+<!-- /public/favicon.svg -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="6" fill="#0A0A0B"/>
+  <path d="M10 8 L10 20 Q10 25 16 25 Q22 25 22 20 L22 8"
+        fill="none" stroke="#F5F5F7" stroke-width="2.5"
+        stroke-linecap="round"/>
+  <circle cx="16" cy="16" r="1.5" fill="#D4A853"/>
+  <line x1="16" y1="5" x2="16" y2="8" stroke="#D4A853" stroke-width="1"/>
+  <line x1="16" y1="25" x2="16" y2="28" stroke="#D4A853" stroke-width="1"/>
+</svg>
+
+MONOCHROME VERSION SVG:
+───────────────────────
+<!-- /public/logo-mono.svg -->
+<!-- All strokes/fills use currentColor for flexibility -->
+<svg width="280" height="48" viewBox="0 0 280 48" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M11 14 L11 28 Q11 33 16 33 Q21 33 21 28 L21 14"
+          fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round"/>
+    <circle cx="16" cy="24" r="1.5" fill="currentColor"/>
+    <line x1="16" y1="10" x2="16" y2="13" stroke="currentColor" stroke-width="1"/>
+    <line x1="16" y1="33" x2="16" y2="36" stroke="currentColor" stroke-width="1"/>
+  </g>
+  <text x="36" y="20" font-family="Space Grotesk, sans-serif"
+        font-weight="700" font-size="16" letter-spacing="3"
+        fill="currentColor">ULTIMATE</text>
+  <text x="36" y="38" font-family="Space Grotesk, sans-serif"
+        font-weight="400" font-size="16" letter-spacing="3"
+        fill="currentColor">MECHANICS</text>
+</svg>
+
+APPLE TOUCH ICON:
+─────────────────
+<!-- /public/apple-touch-icon.png -->
+Size: 180x180px
+Background: #0A0A0B
+Content: Logo icon centered, gold accent on dark background
+
+================================================================================
+SECTION 06: 3D MODELS (ACTUAL SOURCES + URLS)
+================================================================================
+
+HERO CAR MODEL:
+───────────────
+PRIMARY SOURCE (Free):
+  Platform: Sketchfab
+  URL: https://sketchfab.com/3d-models?q=car&type=model&sort_by=-likeCount&features=downloadable
+  Search terms: "car", "sports car", "sedan", "luxury car"
+  Filter: Downloadable, CC-BY or CC0 license
+  Format: GLB / GLTF with Draco compression
+  Target: < 5MB file size, < 80k polygons
+
+RECOMMENDED FREE MODELS:
+  1. Search: https://sketchfab.com/search?q=car+draco&type=model
+  2. Khronos Sample Models:
+     https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0
+  3. Poly Pizza (free low-poly):
+     https://poly.pizza/
+
+PAID BACKUP (If free models insufficient):
+  TurboSquid: https://www.turbosquid.com/Search/3D-Models/car
+  CGTrader: https://www.cgtrader.com/3d-models?keywords=car&file_types[]=glb
+  Budget: $50-$200 for a web-optimized car model
+
+ALTERNATIVE AI 3D GENERATION:
+  Luma AI: https://lumalabs.ai (image to 3D)
+  CSM.ai: https://csm.ai (AI 3D generation)
+  Meshy.ai: https://www.meshy.ai (text to 3D)
+
+REQUIRED COMPONENT NODES FOR DISASSEMBLY:
+─────────────────────────────────────────
+Each component needs a separate mesh/node within the model:
+
+Node Name          | Description
+───────────────────┼──────────────────────────
+body_shell         | Main body panels
+hood               | Engine hood
+front_bumper       | Front bumper assembly
+rear_bumper        | Rear bumper assembly
+door_front_left    | Front left door
+door_front_right   | Front right door
+door_rear_left     | Rear left door
+door_rear_right    | Rear right door
+trunk              | Trunk/boot lid
+wheel_fl           | Front left wheel + tire
+wheel_fr           | Front right wheel + tire
+wheel_rl           | Rear left wheel + tire
+wheel_rr           | Rear right wheel + tire
+brake_fl           | Front left brake assembly
+brake_fr           | Front right brake assembly
+brake_rl           | Rear left brake assembly
+brake_rr           | Rear right brake assembly
+suspension_fl      | Front left suspension
+suspension_fr      | Front right suspension
+suspension_rl      | Rear left suspension
+suspension_rr      | Rear right suspension
+engine_block       | Engine block
+transmission       | Transmission / gearbox
+radiator           | Cooling system / radiator
+battery            | Electrical / battery
+exhaust            | Exhaust system
+interior_seats     | Interior seats
+dashboard          | Dashboard / interior
+steering           | Steering column + wheel
+fuel_tank          | Fuel tank
+
+HDRI ENVIRONMENT FOR 3D SCENE:
+──────────────────────────────
+SOURCE: Poly Haven (Free, CC0)
+URL: https://polyhaven.com/hdris
+
+RECOMMENDED HDRIs:
+  1. https://polyhaven.com/a/studio_small_09  (Studio lighting)
+  2. https://polyhaven.com/a/industrial_sunset (Workshop feel)
+  3. https://polyhaven.com/a/warehouse         (Industrial)
+
+Format: HDR / EXR → Convert to .hdr for Three.js
+Size: 1K or 2K (keep under 2MB for web)
+Usage: <Environment preset="..." /> in React Three Fiber
+File location: /public/textures/hdri-studio.hdr
+
+PBR TEXTURES:
+─────────────
+SOURCE: ambientCG (Free, CC0)
+URL: https://ambientcg.com/
+
+NEEDED TEXTURES:
+Texture              | Search Term          | Use
+─────────────────────┼──────────────────────┼──────────────────
+Metallic Paint       | "Car Paint"          | Car body
+Brushed Metal        | "Brushed Metal"      | Engine parts
+Rubber               | "Rubber"             | Tires
+Carbon Fiber         | "Carbon Fiber"       | Interior trim
+Concrete Floor       | "Concrete Floor"     | Workshop floor
+Leather              | "Leather"            | Seats
+Chrome               | "Chrome"             | Trim, badges
+
+File location: /public/textures/
+
+MODEL OPTIMIZATION PIPELINE:
+────────────────────────────
+# Install tools
+npm install -g gltf-transform
+npm install -g gltfpack
+
+# Step 1: Draco compress
+gltf-transform draco input.glb output.glb \
+  --method edgebreaker \
+  --quantize-position 14 \
+  --quantize-normal 10 \
+  --quantize-texcoord 12
+
+# Step 2: Alternative meshopt compression
+gltfpack -i input.glb -o output.glb -cc -tc -noq
+
+# Step 3: Verify
+# Load in: https://gltf-viewer.donmccurdy.com/
+# Check: polygons < 80k, file size < 5MB
+
+# Step 4: Create LOD variants
+# LOD0: Full quality (desktop)     → ~80k polys → car-draco.glb
+# LOD1: Medium (tablet)            → ~40k polys → car-lod1.glb
+# LOD2: Low (mobile)               → ~15k polys → car-lod2.glb
+# LOD3: Image fallback (low-power) → Static render PNG
+
+================================================================================
+SECTION 07: IMAGES (ACTUAL SOURCES + URLS)
+================================================================================
+
+IMAGE SOURCES (ALL FREE):
+─────────────────────────
+Primary: Unsplash - https://unsplash.com/
+Secondary: Pexels - https://www.pexels.com/
+Tertiary: Pixabay - https://pixabay.com/
+
+IMAGE COMPRESSION TOOL:
+───────────────────────
+Use: https://squoosh.app/
+Format: WebP with AVIF fallback
+Quality: 80-85
+
+HERO BACKGROUND / WORKSHOP ENVIRONMENT:
+───────────────────────────────────────
+SEARCH TERMS on Unsplash:
+  - "luxury car workshop"
+  - "automotive garage dark"
+  - "car service center premium"
+  - "mechanic working luxury car"
+  - "car diagnostic equipment"
+
+DIRECT SEARCH URLS:
+  https://unsplash.com/s/photos/luxury-car-workshop
+  https://unsplash.com/s/photos/car-mechanic-dark
+  https://unsplash.com/s/photos/automotive-garage
+  https://unsplash.com/s/photos/car-engine-dark
+
+USAGE SIZES:
+  Hero background fallback:  3840x2160 (4K)
+  Section backgrounds:       1920x1080
+  Card thumbnails:           800x600
+  Gallery:                   1600x1200
+
+SERVICE CARD IMAGES (8 NEEDED):
+───────────────────────────────
+01 VEHICLE INSPECTION     → Search: "car inspection technician"
+02 GENERAL SERVICE        → Search: "car engine service"
+03 DIAGNOSTIC CHECK       → Search: "car diagnostic computer OBD"
+04 BRAKE INSPECTION       → Search: "car brake disc close up"
+05 ENGINE SERVICE         → Search: "car engine bay clean"
+06 SUSPENSION CHECK       → Search: "car suspension component"
+07 ELECTRICAL DIAGNOSTICS → Search: "car electrical wiring"
+08 PREVENTIVE MAINTENANCE → Search: "car maintenance oil change"
+
+SIZE: 800x600px minimum, WebP format
+FILE LOCATION: /public/images/services/
+
+WORKSHOP GALLERY IMAGES (12 NEEDED):
+────────────────────────────────────
+Category: WORKSHOP (4 images)
+  - Wide shot of workshop interior
+  - Vehicle on lift
+  - Diagnostic station
+  - Tool wall / precision tools
+
+Category: WORK (4 images)
+  - Mechanic inspecting engine
+  - Brake replacement close-up
+  - Wheel alignment
+  - Electrical diagnostic
+
+Category: DETAIL (4 images)
+  - Clean engine bay after service
+  - Polished wheel close-up
+  - Interior detail
+  - Final inspection checklist
+
+SIZE: 1600x1200px, WebP
+FILE LOCATION: /public/images/gallery/
+
+BEFORE/AFTER SLIDER IMAGES (4 PAIRS = 8 IMAGES):
+─────────────────────────────────────────────────
+Pair 1: Engine bay       → Dirty vs Clean
+Pair 2: Brake disc       → Worn vs New/Serviced
+Pair 3: Car exterior     → Before vs After detail
+Pair 4: Wheel/Tire       → Before vs After
+
+SIZE: 1200x800px each, WebP
+FILE LOCATION: /public/images/before-after/
+NOTE: Add caption "Representative example" — do NOT claim these are
+      actual Ultimate Mechanics customer vehicles.
+
+OPEN GRAPH / SOCIAL MEDIA IMAGE:
+────────────────────────────────
+FILE: /public/og-image.jpg
+SIZE: 1200x630px
+CONTENT: Logo + "ENGINEERED FOR THE ROAD AHEAD" + dark automotive bg
+FORMAT: JPG
+
+================================================================================
+SECTION 08: ICONS (LIBRARY + MAPPING)
+================================================================================
+
+ICON LIBRARY:
+─────────────
+PRIMARY: Lucide React
+  Install: npm install lucide-react
+  URL: https://lucide.dev/
+
+ALTERNATIVE: Phosphor Icons
+  Install: npm install @phosphor-icons/react
+  URL: https://phosphoricons.com/
+
+ICON MAPPING:
+─────────────
+import {
+  Search,         // Vehicle Inspection
+  Wrench,         // General Service
+  Cpu,            // Diagnostic Check
+  Disc,           // Brake Inspection
+  Cog,            // Engine Service
+  MoveVertical,   // Suspension Check
+  Zap,            // Electrical Diagnostics
+  ShieldCheck,    // Preventive Maintenance
+  Phone,          // Call
+  MapPin,         // Location
+  Clock,          // Hours
+  Star,           // Reviews
+  ChevronRight,   // Navigation arrow
+  ArrowRight,     // CTA arrow
+  Menu,           // Mobile menu
+  X,              // Close
+  Calendar,       // Booking date
+  Car,            // Vehicle
+  MessageCircle,  // WhatsApp
+  CheckCircle,    // Success
+  AlertCircle,    // Error
+  Loader2,        // Loading spinner
+  Eye,            // Inspection zones
+  Layers,         // Exploded view
+  RotateCcw,      // Reassembly
+  Gauge,          // Performance
+  Settings,       // Engineering
+  Award,          // Quality
+  Users,          // Trust
+  Lightbulb,      // Technology
+  Heart,          // Care
+} from 'lucide-react';
+
+CSS FOR 3D-STYLE SERVICE ICONS:
+───────────────────────────────
+.service-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #2A2A2E, #1C1C1F);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.3),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+  transform: perspective(200px) rotateX(5deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  transform: perspective(200px) rotateX(0deg) translateY(-2px);
+  box-shadow:
+    0 8px 24px rgba(0,0,0,0.4),
+    0 0 20px rgba(212,168,83,0.1),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
+.service-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: #D4A853;
+  stroke-width: 1.5;
+}
+
+================================================================================
+SECTION 09: HERO SECTION (FULL SPEC)
+================================================================================
+
+LAYOUT: Full-screen cinematic 3D automotive scene
+
+SCENE DESCRIPTION:
+──────────────────
+A premium modern automobile positioned inside a sophisticated
+automotive workshop. The workshop looks realistic:
+  - Polished concrete floor (dark, reflective)
+  - Dark architectural interior
+  - Professional vehicle lift (background)
+  - Diagnostic equipment (background)
+  - Precision tools (subtle)
+  - Dramatic overhead lighting (rect area lights)
+  - Subtle atmospheric haze (fog)
+  - Realistic reflections (environment map)
+  - Premium workshop environment
+
+VEHICLE PRESENTATION:
+─────────────────────
+The vehicle presented like a luxury product.
+Realistic 3D rendering with:
+  - Metallic paint (MeshPhysicalMaterial, clearcoat)
+  - Glass (transparent, reflective)
+  - Tires (rubber texture, roughness)
+  - Brake components (metallic)
+  - Headlights (emissive)
+  - Body panels (metallic, reflective)
+  - Engine components (visible through hood gap)
+
+CAMERA ANIMATION:
+─────────────────
+Start: Slow cinematic camera movement around the vehicle (orbit)
+Then: Transition toward the front quarter of the car
+Duration: 8-12 seconds loop
+Easing: power2.inOut
+
+HEADLINE:
+─────────
+"ENGINEERED FOR
+THE ROAD AHEAD."
+
+Font: Space Grotesk 700, uppercase
+Size: text-5xl md:text-7xl lg:text-8xl
+Color: text-um-text
+Animation: Text reveal (staggered word animation)
+
+SUPPORTING TEXT:
+────────────────
+"Precision inspection. Expert automotive care.
+Built around your vehicle."
+
+Font: Inter 400
+Size: text-base md:text-lg
+Color: text-um-text-dim
+
+PRIMARY CTA:
+────────────
+Text: "BOOK A SERVICE"
+Style: bg-um-accent text-um-black font-semibold uppercase tracking-wider
+       px-8 py-4 rounded-lg hover:bg-um-accent-dim transition-colors
+Link: #booking
+
+SECONDARY CTA:
+──────────────
+Text: "EXPLORE OUR WORK"
+Style: border border-um-border-2 text-um-text font-medium uppercase
+       tracking-wider px-8 py-4 rounded-lg hover:border-um-accent/50
+       hover:text-um-accent transition-colors
+Link: #workshop
+
+SCROLL INDICATOR:
+─────────────────
+Animated chevron/line at bottom center
+Subtle bounce animation
+Text: "SCROLL" in JetBrains Mono, text-[10px], tracking-[0.3em]
+
+================================================================================
+SECTION 10: 3D AUTOMOTIVE EXPERIENCE (FULL CODE)
+================================================================================
+
+PACKAGE DEPENDENCIES:
+─────────────────────
+{
+  "three": "^0.170.0",
+  "@react-three/fiber": "^8.17.0",
+  "@react-three/drei": "^9.114.0",
+  "@react-three/postprocessing": "^2.16.0",
+  "gsap": "^3.12.5",
+  "@gsap/react": "^2.1.1",
+  "framer-motion": "^11.11.0",
+  "maath": "^0.10.8"
+}
+
+INSTALL COMMAND:
+────────────────
+npm install three @react-three/fiber @react-three/drei @react-three/postprocessing gsap @gsap/react framer-motion maath
+npm install -D @types/three
+
+3D COMPONENT FILE STRUCTURE:
+────────────────────────────
+/components/3d/
+├── SceneCanvas.tsx          # Main R3F Canvas wrapper
+├── HeroScene.tsx            # Hero section 3D scene
+├── HeroCamera.tsx           # Animated camera path
+├── CarModel.tsx             # Reusable car model loader
+├── DisassemblyScene.tsx     # Exploded view section
+├── InspectionScene.tsx      # Interactive inspection
+├── InspectionHotspot.tsx    # Clickable zone markers
+├── PartLabel.tsx            # Technical labels with lines
+├── LoadingFallback.tsx      # 3D loading placeholder
+├── PerformanceMonitor.tsx   # FPS monitor + LOD switch
+└── ScenePostFX.tsx          # Post-processing effects
+
+MAIN CANVAS WRAPPER CODE:
+─────────────────────────
+// /components/3d/SceneCanvas.tsx
+'use client';
+import { Canvas } from '@react-three/fiber';
+import { Suspense, ReactNode } from 'react';
+import { Preload } from '@react-three/drei';
+import LoadingFallback from './LoadingFallback';
+
+interface SceneCanvasProps {
+  children: ReactNode;
+  camera?: { position: [number, number, number]; fov: number };
+  className?: string;
+}
+
+export default function SceneCanvas({
+  children,
+  camera = { position: [4, 2, 6], fov: 45 },
+  className = '',
+}: SceneCanvasProps) {
+  return (
+    <div className={`w-full h-full ${className}`}>
+      <Canvas
+        camera={camera}
+        dpr={[1, 1.5]}
+        gl={{
+          antialias: true,
+          alpha: true,
+          powerPreference: 'high-performance',
+        }}
+        shadows
+      >
+        <Suspense fallback={<LoadingFallback />}>
+          {children}
+          <Preload all />
+        </Suspense>
+      </Canvas>
+    </div>
+  );
+}
+
+CAR MODEL LOADER CODE:
+──────────────────────
+// /components/3d/CarModel.tsx
+'use client';
+import { useGLTF } from '@react-three/drei';
+import { useFrame } from '@react-three/fiber';
+import { useRef, useMemo } from 'react';
+import * as THREE from 'three';
+
+const MODEL_URL = '/models/car-draco.glb';
+
+interface CarModelProps {
+  exploded?: boolean;
+  explodeProgress?: number;
+  selectedPart?: string | null;
+  onPartClick?: (partName: string) => void;
+}
+
+export default function CarModel({
+  exploded = false,
+  explodeProgress = 0,
+  selectedPart = null,
+  onPartClick,
+}: CarModelProps) {
+  const { scene } = useGLTF(MODEL_URL);
+  const groupRef = useRef<THREE.Group>(null);
+
+  const explosionOffsets: Record<string, [number, number, number]> = useMemo(() => ({
+    body_shell:       [0, 0.8, 0],
+    hood:             [0, 1.2, 0.6],
+    front_bumper:     [0, 0, 1.5],
+    rear_bumper:      [0, 0, -1.5],
+    door_front_left:  [-1.2, 0.3, 0.2],
+    door_front_right: [1.2, 0.3, 0.2],
+    door_rear_left:   [-1.2, 0.3, -0.3],
+    door_rear_right:  [1.2, 0.3, -0.3],
+    trunk:            [0, 1.0, -0.8],
+    wheel_fl:         [-1.5, -0.3, 0.8],
+    wheel_fr:         [1.5, -0.3, 0.8],
+    wheel_rl:         [-1.5, -0.3, -0.8],
+    wheel_rr:         [1.5, -0.3, -0.8],
+    engine_block:     [0, 1.8, 0.4],
+    transmission:     [0, -1.2, -0.2],
+    radiator:         [0, 0.5, 1.8],
+    battery:          [-0.8, 1.4, 0.3],
+    exhaust:          [0, -1.5, -1.0],
+    interior_seats:   [0, 2.2, 0],
+    dashboard:        [0, 2.5, 0.5],
+    steering:         [0, 2.0, 0.8],
+    suspension_fl:    [-1.8, -0.8, 0.8],
+    suspension_fr:    [1.8, -0.8, 0.8],
+    suspension_rl:    [-1.8, -0.8, -0.8],
+    suspension_rr:    [1.8, -0.8, -0.8],
+    brake_fl:         [-1.3, -0.5, 0.8],
+    brake_fr:         [1.3, -0.5, 0.8],
+    brake_rl:         [-1.3, -0.5, -0.8],
+    brake_rr:         [1.3, -0.5, -0.8],
+  }), []);
+
+  useFrame(() => {
+    if (!groupRef.current) return;
+    if (!exploded && explodeProgress === 0) {
+      groupRef.current.rotation.y += 0.002;
+    }
+  });
+
+  return (
+    <group ref={groupRef}>
+      <primitive object={scene} />
+    </group>
+  );
+}
+
+useGLTF.preload(MODEL_URL);
+
+HERO SCENE CODE:
+────────────────
+// /components/3d/HeroScene.tsx
+'use client';
+import { useRef, useEffect } from 'react';
+import { useFrame, useThree } from '@react-three/fiber';
+import { Environment, ContactShadows, Float } from '@react-three/drei';
+import { EffectComposer, Bloom, Vignette } from '@react-three/postprocessing';
+import gsap from 'gsap';
+import CarModel from './CarModel';
+
+function HeroCamera() {
+  const { camera } = useThree();
+  const tl = useRef<gsap.core.Timeline>();
+
+  useEffect(() => {
+    tl.current = gsap.timeline({ repeat: -1, repeatDelay: 2 });
+    tl.current
+      .fromTo(camera.position,
+        { x: 8, y: 4, z: 8 },
+        { x: 5, y: 2.5, z: 5, duration: 4, ease: 'power2.inOut' }
+      )
+      .to(camera.position,
+        { x: 3, y: 1.5, z: 4, duration: 3, ease: 'power2.inOut' }
+      )
+      .to(camera.position,
+        { x: 2.5, y: 1.2, z: 3.5, duration: 3, ease: 'power1.inOut' }
+      )
+      .to(camera.position,
+        { x: 8, y: 4, z: 8, duration: 4, ease: 'power2.inOut' }
+      );
+    return () => { tl.current?.kill(); };
+  }, [camera]);
+
+  useFrame(() => { camera.lookAt(0, 0.5, 0); });
+  return null;
+}
+
+function WorkshopEnvironment() {
+  return (
+    <>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.01, 0]} receiveShadow>
+        <planeGeometry args={[30, 30]} />
+        <meshStandardMaterial color="#1A1A1C" metalness={0.3} roughness={0.7} />
+      </mesh>
+      <gridHelper args={[30, 60, '#2A2A2E', '#1C1C1F']} position={[0, 0.01, 0]} />
+      <rectAreaLight width={6} height={2} position={[0, 6, 0]}
+        rotation={[-Math.PI / 2, 0, 0]} intensity={3} color="#FFFFFF" />
+      <ambientLight intensity={0.15} />
+      <directionalLight position={[5, 8, 5]} intensity={1} castShadow />
+      <Environment preset="studio" />
+    </>
+  );
+}
+
+export default function HeroScene() {
+  return (
+    <>
+      <HeroCamera />
+      <WorkshopEnvironment />
+      <Float speed={0.5} rotationIntensity={0.02} floatIntensity={0.05}>
+        <CarModel />
+      </Float>
+      <ContactShadows position={[0, 0, 0]} opacity={0.6} scale={12} blur={2.5} />
+      <EffectComposer>
+        <Bloom intensity={0.3} luminanceThreshold={0.8} />
+        <Vignette eskil={false} offset={0.1} darkness={0.8} />
+      </EffectComposer>
+    </>
+  );
+}
+
+LOADING FALLBACK CODE:
+──────────────────────
+// /components/3d/LoadingFallback.tsx
+import { Html, useProgress } from '@react-three/drei';
+
+export default function LoadingFallback() {
+  const { progress } = useProgress();
+  return (
+    <Html center>
+      <div className="flex flex-col items-center gap-4">
+        <div className="relative w-16 h-16">
+          <div className="absolute inset-0 rounded-full border border-white/10" />
+          <div className="absolute inset-0 rounded-full border-t border-[#D4A853]
+                        animate-spin" style={{ animationDuration: '1.5s' }} />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <span className="font-mono text-[10px] text-[#D4A853]">
+              {Math.round(progress)}%
+            </span>
+          </div>
+        </div>
+        <span className="font-mono text-[10px] tracking-[0.3em] text-white/40 uppercase">
+          Loading Experience
+        </span>
+      </div>
+    </Html>
+  );
+}
+
+PERFORMANCE MONITOR CODE:
+─────────────────────────
+// /components/3d/PerformanceMonitor.tsx
+'use client';
+import { useFrame } from '@react-three/fiber';
+import { useRef, useState } from 'react';
+
+export type QualityLevel = 'high' | 'medium' | 'low' | 'fallback';
+
+export function usePerformanceMonitor(): QualityLevel {
+  const [quality, setQuality] = useState<QualityLevel>('high');
+  const frameTimes = useRef<number[]>([]);
+  const lastTime = useRef(performance.now());
+
+  useFrame(() => {
+    const now = performance.now();
+    const delta = now - lastTime.current;
+    lastTime.current = now;
+    frameTimes.current.push(delta);
+    if (frameTimes.current.length > 60) frameTimes.current.shift();
+
+    if (frameTimes.current.length === 60) {
+      const avg = frameTimes.current.reduce((a, b) => a + b, 0) / 60;
+      const fps = 1000 / avg;
+      if (fps < 20) setQuality('fallback');
+      else if (fps < 30) setQuality('low');
+      else if (fps < 45) setQuality('medium');
+      else setQuality('high');
+    }
+  });
+
+  return quality;
+}
+
+================================================================================
+SECTION 11: CAR DISASSEMBLY EXPERIENCE (FULL CODE)
+================================================================================
+
+SECTION TITLE: "EVERY COMPONENT. EVERY DETAIL."
+SUBHEADING: "Precision begins beneath the surface."
+
+DISASSEMBLY STEPS (SCROLL-DRIVEN):
+──────────────────────────────────
+Step 1: Vehicle appears fully assembled
+Step 2: Body panels subtly separate
+Step 3: Wheels move outward
+Step 4: Brake assemblies become visible
+Step 5: Suspension components separate
+Step 6: Engine compartment reveals major components
+Step 7: Transmission/drivetrain components become visible
+Step 8: Interior elements subtly separate
+Step 9: All major components float in organized exploded-view
+
+LABELS (with thin technical connector lines):
+─────────────────────────────────────────────
+ENGINE | BRAKES | SUSPENSION | TRANSMISSION
+COOLING | ELECTRICAL | BODY | INTERIOR
+
+DISASSEMBLY SCENE CODE:
+───────────────────────
+// /components/3d/DisassemblyScene.tsx
+'use client';
+import { useRef, useState, useEffect } from 'react';
+import { Html } from '@react-three/drei';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import CarModel from './CarModel';
+
+gsap.registerPlugin(ScrollTrigger);
+
+const PART_LABELS = [
+  { name: 'ENGINE',       position: [0, 2.5, 0.5] },
+  { name: 'BRAKES',       position: [-2, -0.5, 1] },
+  { name: 'SUSPENSION',   position: [-2.5, -1, 0] },
+  { name: 'TRANSMISSION', position: [0, -1.8, -0.3] },
+  { name: 'COOLING',      position: [0, 0.8, 2.2] },
+  { name: 'ELECTRICAL',   position: [-1.2, 1.8, 0.5] },
+  { name: 'BODY',         position: [0, 1.5, 0] },
+  { name: 'INTERIOR',     position: [0, 3, 0.3] },
+];
+
+export default function DisassemblyScene() {
+  const [explodeProgress, setExplodeProgress] = useState(0);
+  const [showLabels, setShowLabels] = useState(false);
+  const progressRef = useRef({ value: 0 });
+
+  useEffect(() => {
+    const trigger = ScrollTrigger.create({
+      trigger: '#disassembly-section',
+      start: 'top center',
+      end: 'bottom center',
+      scrub: 1,
+      onUpdate: (self) => {
+        const progress = self.progress;
+        if (progress <= 0.7) {
+          const explodeVal = progress / 0.7;
+          gsap.to(progressRef.current, {
+            value: explodeVal, duration: 0.3,
+            onUpdate: () => setExplodeProgress(progressRef.current.value),
+          });
+          setShowLabels(explodeVal > 0.5);
+        } else if (progress <= 0.85) {
+          setShowLabels(true);
+        } else {
+          const reassembleVal = 1 - ((progress - 0.85) / 0.15);
+          gsap.to(progressRef.current, {
+            value: reassembleVal, duration: 0.3,
+            onUpdate: () => setExplodeProgress(progressRef.current.value),
+          });
+          setShowLabels(reassembleVal > 0.5);
+        }
+      },
+    });
+    return () => trigger.kill();
+  }, []);
+
+  return (
+    <group>
+      <CarModel exploded={explodeProgress > 0} explodeProgress={explodeProgress} />
+      {showLabels && PART_LABELS.map((label) => (
+        <group key={label.name} position={label.position}>
+          <Html center distanceFactor={8}>
+            <div className="flex items-center gap-2 whitespace-nowrap">
+              <div className="w-8 h-px bg-[#D4A853]/40" />
+              <span className="font-mono text-[10px] tracking-[0.2em]
+                             text-white/60 bg-black/60 backdrop-blur-sm
+                             border border-white/10 px-3 py-1.5 rounded">
+                {label.name}
+              </span>
+            </div>
+          </Html>
+        </group>
+      ))}
+    </group>
+  );
+}
+
+IMPORTANT:
+──────────
+- Animation should resemble professional engineering exploded diagram
+- Do NOT make it look destructive
+- Components separate smoothly and mechanically
+- As if vehicle is being professionally disassembled
+
+================================================================================
+SECTION 12: REASSEMBLY ANIMATION (FULL CODE)
+================================================================================
+
+TEXT: "PRECISION PUT BACK TOGETHER."
+FINAL TEXT: "READY FOR THE ROAD."
+
+After exploded view, reverse animation plays.
+Components smoothly return to original positions.
+Vehicle becomes fully assembled.
+Finish with subtle lighting sweep across finished vehicle.
+
+LIGHTING SWEEP CSS:
+───────────────────
+.light-sweep {
+  position: relative;
+  overflow: hidden;
+}
+.light-sweep::after {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 60%; height: 100%;
+  background: linear-gradient(90deg, transparent,
+    rgba(255,255,255,0.04), rgba(255,255,255,0.08),
+    rgba(255,255,255,0.04), transparent);
+  transform: skewX(-15deg);
+  animation: sweep 4s ease-in-out infinite;
+}
+@keyframes sweep {
+  0%, 100% { left: -100%; }
+  50% { left: 150%; }
+}
+
+================================================================================
+SECTION 13: INTERACTIVE VEHICLE INSPECTION (FULL CODE)
+================================================================================
+
+SECTION TITLE: "SEE WHAT WE SEE."
+
+CLICKABLE INSPECTION ZONES:
+───────────────────────────
+ENGINE | BRAKES | SUSPENSION | TYRES
+ELECTRICAL | COOLING | TRANSMISSION | BODY
+
+INTERACTION FLOW:
+─────────────────
+1. User clicks a component zone
+2. Camera smoothly moves toward that area
+3. Component highlights (gold accent glow)
+4. Technical information panel appears
+5. Subtle animation explains the component
+
+INSPECTION ZONES DATA:
+──────────────────────
+const INSPECTION_ZONES = [
+  {
+    id: 'engine',
+    label: 'ENGINE',
+    cameraPos: [2, 2, 2],
+    lookAt: [0, 0.8, 0],
+    description: 'Complete engine inspection including oil levels, belt condition, fluid leaks, and component integrity.',
+    checkpoints: ['Oil level & quality', 'Coolant check', 'Belt inspection', 'Fluid leak detection'],
+  },
+  {
+    id: 'brakes',
+    label: 'BRAKES',
+    cameraPos: [-2.5, 0.5, 2],
+    lookAt: [-1.2, 0, 0.8],
+    description: 'Brake pad thickness, disc condition, fluid levels, and braking system integrity.',
+    checkpoints: ['Pad thickness', 'Disc condition', 'Fluid level', 'Line inspection'],
+  },
+  {
+    id: 'suspension',
+    label: 'SUSPENSION',
+    cameraPos: [-3, 0.3, 0],
+    lookAt: [-1.5, -0.3, 0],
+    description: 'Shock absorber condition, spring integrity, bushing wear, and alignment check.',
+    checkpoints: ['Shock absorbers', 'Spring condition', 'Bushings', 'Alignment'],
+  },
+  {
+    id: 'tyres',
+    label: 'TYRES',
+    cameraPos: [2.5, 0.3, 1.5],
+    lookAt: [1.5, -0.2, 0.8],
+    description: 'Tread depth, pressure, wear patterns, and overall tyre condition assessment.',
+    checkpoints: ['Tread depth', 'Pressure check', 'Wear pattern', 'Sidewall condition'],
+  },
+  {
+    id: 'electrical',
+    label: 'ELECTRICAL',
+    cameraPos: [-1.5, 2, 1.5],
+    lookAt: [-0.5, 1, 0.3],
+    description: 'Battery health, alternator output, wiring condition, and diagnostic scan.',
+    checkpoints: ['Battery health', 'Alternator output', 'Wiring check', 'OBD scan'],
+  },
+  {
+    id: 'cooling',
+    label: 'COOLING',
+    cameraPos: [0, 1.5, 3],
+    lookAt: [0, 0.5, 1.5],
+    description: 'Radiator condition, coolant level, hose integrity, and thermostat function.',
+    checkpoints: ['Coolant level', 'Radiator condition', 'Hose integrity', 'Thermostat'],
+  },
+  {
+    id: 'transmission',
+    label: 'TRANSMISSION',
+    cameraPos: [0, -1, 2.5],
+    lookAt: [0, -0.8, 0],
+    description: 'Transmission fluid, gear operation, clutch condition, and drivetrain check.',
+    checkpoints: ['Fluid level', 'Gear operation', 'Clutch check', 'Drivetrain'],
+  },
+  {
+    id: 'body',
+    label: 'BODY',
+    cameraPos: [4, 2, 4],
+    lookAt: [0, 0.5, 0],
+    description: 'Panel condition, paint integrity, structural inspection, and underbody check.',
+    checkpoints: ['Panel condition', 'Paint integrity', 'Underbody', 'Structural check'],
+  },
+];
+
+NOTE: Do not make unsupported technical claims about Ultimate Mechanics.
+This is a visual educational/brand experience.
+
+================================================================================
+SECTION 14: SERVICES SECTION (FULL SPEC)
+================================================================================
+
+SECTION TITLE: "PRECISION SERVICE. WITHOUT COMPROMISE."
+
+SERVICE CARDS (8):
+──────────────────
+01 VEHICLE INSPECTION
+02 GENERAL SERVICE
+03 DIAGNOSTIC CHECK
+04 BRAKE INSPECTION
+05 ENGINE SERVICE
+06 SUSPENSION CHECK
+07 ELECTRICAL DIAGNOSTICS
+08 PREVENTIVE MAINTENANCE
+
+EACH CARD CONTAINS:
+───────────────────
+- Premium automotive visual (image from Unsplash)
+- Subtle 3D icon (CSS-based, Lucide icon)
+- Hover animation (lift + glow)
+- Technical micro-animation
+- Short description
+- "LEARN MORE" link
+
+IMPORTANT:
+──────────
+Do not claim these are officially offered services unless confirmed.
+Make the service list configurable via /data/services.ts
+
+CARD STYLE:
+───────────
+- Background: bg-um-surface with glassmorphism border
+- Border: border-um-border, hover:border-um-accent/30
+- Border radius: rounded-xl
+- Padding: p-6
+- Hover: translateY(-4px), shadow-um-accent
+- Transition: transition-all duration-300
+
+================================================================================
+SECTION 15: WHY ULTIMATE MECHANICS (FULL SPEC)
+================================================================================
+
+SECTION TITLE: "WHY ULTIMATE MECHANICS?"
+
+FEATURE BLOCKS (5):
+───────────────────
+PRECISION
+"Every inspection begins with attention to detail."
+Icon: Settings (Lucide)
+
+TRANSPARENCY
+"Clear communication throughout the service process."
+Icon: Eye (Lucide)
+
+EXPERTISE
+"Automotive care focused on your vehicle's condition."
+Icon: Award (Lucide)
+
+TECHNOLOGY
+"Modern diagnostic thinking for modern vehicles."
+Icon: Lightbulb (Lucide)
+
+CARE
+"Your vehicle receives focused attention from inspection through completion."
+Icon: Heart (Lucide)
+
+NOTE: Do not invent certifications or unsupported credentials.
+
+================================================================================
+SECTION 16: WORKSHOP EXPERIENCE (FULL SPEC)
+================================================================================
+
+SECTION TITLE: "INSIDE THE WORKSHOP"
+
+CONTENT:
+────────
+Cinematic section showing workshop environment:
+  - Mechanic working on vehicle
+  - Diagnostic equipment
+  - Vehicle lift
+  - Wheel/brake inspection
+  - Engine inspection
+  - Detailed mechanical work
+
+GALLERY INTERACTIONS:
+─────────────────────
+  - Smooth image transitions (crossfade)
+  - Hover zoom (scale 1.05)
+  - Full-screen lightbox on click
+  - Cinematic scrolling (horizontal scroll or grid)
+  - Category filters (All / Workshop / Work / Detail)
+
+NOTE: If real workshop photographs are available, allow them to
+replace generated imagery via CMS configuration.
+
+================================================================================
+SECTION 17: BEFORE/AFTER EXPERIENCE (FULL SPEC)
+================================================================================
+
+SECTION TITLE: "THE DIFFERENCE IS IN THE DETAIL."
+
+INTERACTIVE BEFORE/AFTER SLIDER:
+────────────────────────────────
+Draggable divider between before and after images.
+
+EXAMPLES:
+  Before inspection → After service
+  Dirty/used component → Inspected/serviced component
+  Vehicle exterior → Detailed vehicle exterior
+
+IMPLEMENTATION:
+───────────────
+Use CSS clip-path or a range input overlay.
+Images must be same dimensions.
+Add label "BEFORE" and "AFTER" on respective sides.
+
+IMPORTANT:
+──────────
+Do NOT falsely imply that these are actual Ultimate Mechanics
+customer vehicles unless actual photos are provided.
+Add caption: "Representative example"
+
+================================================================================
+SECTION 18: CUSTOMER TRUST SECTION (FULL SPEC)
+================================================================================
+
+DISPLAY:
+────────
+5.0 ★ (large, prominent)
+68 Google Reviews
+"Rated 5.0 on Google"
+
+DO NOT fabricate individual review text.
+
+INSTEAD:
+────────
+"See what our customers say"
+CTA Button: "VIEW GOOGLE REVIEWS"
+Link: [Actual Google Reviews URL - to be provided]
+
+NOTE: If actual Google review content is later supplied, add it here.
+
+================================================================================
+SECTION 19: LOCATION SECTION (FULL CODE)
+================================================================================
+
+TITLE: "FIND ULTIMATE MECHANICS"
+
+ADDRESS:
+────────
+No. 605, Road Number 3A,
+Gopal Nagar, Shilpa Avenue Colony,
+Hafeezpet,
+Hyderabad, Telangana 500085
+
+PHONE: 099599 90827
+PLUS CODE: F9JF+XX Hyderabad, Telangana
+
+CTA BUTTONS:
+────────────
+GET DIRECTIONS → Google Maps directions URL
+CALL WORKSHOP → tel:+919959990827
+BOOK A SERVICE → #booking
+
+GOOGLE MAPS EMBED CODE:
+───────────────────────
+const MAP_EMBED_URL = `https://www.google.com/maps/embed?pb=...`;
+// NOTE: Get actual embed URL from:
+// 1. Go to Google Maps
+// 2. Search "Ultimate Mechanics Hafeezpet"
+// 3. Click Share → Embed a map → Copy iframe src
+
+const DIRECTIONS_URL = `https://www.google.com/maps/dir/?api=1&destination=Ultimate+Mechanics+Hafeezpet+Hyderabad`;
+
+MAP STYLE:
+──────────
+Apply dark theme filter to map:
+style={{ filter: 'grayscale(1) invert(0.9) contrast(0.9)' }}
+
+Add gradient overlay to blend with dark theme.
+
+================================================================================
+SECTION 20: BOOKING FORM (FULL CODE)
+================================================================================
+
+FORM FIELDS:
+────────────
+Name (required, text)
+Phone (required, tel, validate Indian 10-digit)
+Vehicle Brand (required, select dropdown)
+Vehicle Model (optional, text)
+Service Required (required, select dropdown)
+Preferred Date (required, date picker, min=today)
+Preferred Time (optional, select: Morning/Afternoon/Evening)
+Additional Message (optional, textarea)
+
+CTA BUTTON: "REQUEST SERVICE"
+
+VEHICLE BRAND OPTIONS:
+──────────────────────
+Maruti Suzuki, Hyundai, Toyota, Honda, Tata,
+Mahindra, Kia, Volkswagen, Skoda, BMW,
+Mercedes-Benz, Audi, Other
+
+SERVICE OPTIONS:
+────────────────
+Vehicle Inspection, General Service, Diagnostic Check,
+Brake Inspection, Engine Service, Suspension Check,
+Electrical Diagnostics, Preventive Maintenance, Other
+
+FORM STATES:
+────────────
+- Idle (default)
+- Loading (spinner in button)
+- Success (checkmark + message)
+- Error (alert + retry option)
+
+VALIDATION RULES:
+─────────────────
+- Name: required, min 2 characters
+- Phone: required, regex /^[6-9]\d{9}$/
+- Vehicle Brand: required
+- Service: required
+- Date: required, cannot be past date
+
+API ENDPOINT: /api/booking (POST)
+NOTE: Do not expose private API keys in frontend code.
+Make the form backend-ready.
+
+================================================================================
+SECTION 21: PHONE + WHATSAPP (FULL CODE)
+================================================================================
+
+PHONE NUMBER: 099599 90827
+RAW FORMAT: +919959990827
+WHATSAPP FORMAT: 919959990827
+
+CALL NOW CTA:
+─────────────
+<a href="tel:+919959990827">CALL NOW</a>
+
+WHATSAPP CTA (if confirmed):
+────────────────────────────
+const WHATSAPP_URL = `https://wa.me/919959990827?text=${encodeURIComponent(
+  'Hi, I would like to book a service at Ultimate Mechanics.'
+)}`;
+
+<a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+  WhatsApp Us
+</a>
+
+WHATSAPP ICON SVG:
+──────────────────
+<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+</svg>
+
+NOTE: Do not invent a different phone number.
+
+================================================================================
+SECTION 22: NAVIGATION (FULL SPEC)
+================================================================================
+
+STICKY PREMIUM NAVIGATION:
+──────────────────────────
+Logo: ULTIMATE MECHANICS (left)
+Navigation Links (center):
+  HOME | ABOUT | SERVICES | 3D INSPECTION | WORKSHOP | REVIEWS | CONTACT
+Right CTA: BOOK A SERVICE
+
+NAV STYLE:
+──────────
+- Position: fixed top-0
+- Background: bg-um-glass backdrop-blur-xl
+- Border bottom: border-b border-um-border
+- Height: h-16 md:h-20
+- Z-index: z-50
+
+MOBILE NAVIGATION:
+──────────────────
+- Hamburger menu icon (right)
+- Full-screen overlay menu
+- Persistent booking/call CTA at bottom
+- Smooth slide-in animation
+
+================================================================================
+SECTION 23: MOTION DESIGN & ANIMATIONS (FULL CODE)
+================================================================================
+
+LIBRARIES:
+──────────
+- GSAP + ScrollTrigger (scroll-based animations)
+- Three.js / React Three Fiber (3D)
+- Framer Motion (UI animations)
+
+ANIMATION TYPES:
+────────────────
+- Cinematic hero camera movement
+- Text reveal (staggered words)
+- Image reveal (clip-path or opacity)
+- Metallic light sweeps
+- Smooth card transitions
+- Component explosions
+- Component reassembly
+- Scroll-based 3D rotation
+- Hover micro-interactions
+- Button feedback (scale on press)
+- Page transitions
+
+SECTION REVEAL COMPONENT:
+─────────────────────────
+// /components/animations/SectionReveal.tsx
+'use client';
+import { useRef } from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+
+export default function SectionReveal({ children, className, delay = 0, direction = 'up' }) {
+  const ref = useRef(null);
+  useGSAP(() => {
+    const fromVars = { opacity: 0 };
+    if (direction === 'up') fromVars.y = 60;
+    if (direction === 'down') fromVars.y = -60;
+    if (direction === 'left') fromVars.x = 60;
+    if (direction === 'right') fromVars.x = -60;
+
+    gsap.fromTo(ref.current, fromVars, {
+      opacity: 1, x: 0, y: 0,
+      duration: 1, delay, ease: 'power3.out',
+      scrollTrigger: {
+        trigger: ref.current,
+        start: 'top 85%',
+        toggleActions: 'play none none reverse',
+      },
+    });
+  }, { scope: ref });
+
+  return <div ref={ref} className={className}>{children}</div>;
+}
+
+METALLIC LIGHT SWEEP CSS:
+─────────────────────────
+.light-sweep { position: relative; overflow: hidden; }
+.light-sweep::after {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 60%; height: 100%;
+  background: linear-gradient(90deg, transparent,
+    rgba(255,255,255,0.04), rgba(255,255,255,0.08),
+    rgba(255,255,255,0.04), transparent);
+  transform: skewX(-15deg);
+  animation: sweep 4s ease-in-out infinite;
+}
+@keyframes sweep {
+  0%, 100% { left: -100%; }
+  50% { left: 150%; }
+}
+
+IMPORTANT:
+──────────
+Avoid excessive animation.
+The objective is: LUXURY + ENGINEERING + PRECISION
+NOT: FLASHY + CHAOTIC.
+
+================================================================================
+SECTION 24: PAGE TRANSITIONS & LOADING (FULL CODE)
+================================================================================
+
+LOADING SCREEN:
+───────────────
+Display: "ULTIMATE MECHANICS"
+Animation: Thin circular mechanical ring rotates
+Then: Logo resolves
+Then: Page reveals itself
+Duration: Keep short (1.5-2 seconds max)
+Never make users wait unnecessarily for large 3D assets.
+
+PAGE LOADER CODE:
+─────────────────
+// /components/animations/PageLoader.tsx
+'use client';
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+
+export default function PageLoader({ onComplete }) {
+  const loaderRef = useRef(null);
+  const ringRef = useRef(null);
+  const logoRef = useRef(null);
+
+  useEffect(() => {
+    const tl = gsap.timeline({
+      onComplete: () => {
+        gsap.to(loaderRef.current, { opacity: 0, duration: 0.5, onComplete });
+      },
+    });
+    tl.to(ringRef.current, { rotation: 360, duration: 1.2, ease: 'power2.inOut' })
+      .fromTo(logoRef.current,
+        { opacity: 0, y: 10 },
+        { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, '-=0.3'
+      )
+      .to({}, { duration: 0.3 });
+  }, [onComplete]);
+
+  return (
+    <div ref={loaderRef} className="fixed inset-0 z-[100] bg-[#0A0A0B]
+         flex items-center justify-center">
+      <div className="flex flex-col items-center gap-6">
+        <div ref={ringRef} className="relative w-20 h-20">
+          <div className="absolute inset-0 rounded-full border border-white/10" />
+          <div className="absolute inset-0 rounded-full border-t-2 border-[#D4A853]" />
+          <div className="absolute inset-3 rounded-full border border-white/10" />
+          <div className="absolute inset-3 rounded-full border-b border-[#D4A853]/40" />
+        </div>
+        <div ref={logoRef} className="opacity-0 text-center">
+          <p className="font-display text-lg font-bold tracking-[0.3em] text-white">
+            ULTIMATE
+          </p>
+          <p className="font-display text-lg font-light tracking-[0.3em] text-white/50">
+            MECHANICS
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+================================================================================
+SECTION 25: RESPONSIVE DESIGN & FALLBACKS
+================================================================================
+
+BREAKPOINTS:
+────────────
+Mobile:  < 768px
+Tablet:  768px - 1024px
+Laptop:  1024px - 1440px
+Desktop: > 1440px
+
+3D EXPERIENCE BY DEVICE:
+────────────────────────
+Desktop (>1024px):
+  Full interactive 3D
+  All animations enabled
+  Full disassembly/reassembly
+  Interactive inspection
+
+Tablet (768-1024px):
+  Reduced polygon count / simplified animation
+  Fewer post-processing effects
+  Simplified camera paths
+
+Mobile (<768px):
+  Optimized 3D (lowest LOD) OR
+  Cinematic video/render fallback
+  Simplified interactions
+  Tap instead of hover
+
+Low-powered devices:
+  Static/high-quality animated fallback
+  No 3D rendering
+  Pre-rendered images
+
+FALLBACK STRATEGY:
+──────────────────
+1. Detect WebGL support
+2. Detect device performance (GPU tier)
+3. If WebGL not supported → show static image
+4. If low FPS detected → switch to lower LOD
+5. If very low FPS → switch to video/image fallback
+
+NEVER allow 3D to make the website unusably slow.
+
+================================================================================
+SECTION 26: PERFORMANCE (BUDGETS + STRATEGY)
+================================================================================
+
+TARGET METRICS:
+───────────────
+First Contentful Paint:    < 1.5s
+Largest Contentful Paint:  < 2.5s
+Time to Interactive:       < 3.5s
+Cumulative Layout Shift:   < 0.1
+Total Bundle Size (JS):    < 300KB (initial load)
+3D Model Size:             < 5MB (lazy loaded)
+Total Images:              < 2MB (WebP/AVIF)
+Lighthouse Performance:    > 90
+Lighthouse SEO:            > 95
+Lighthouse Accessibility:  > 95
+Lighthouse Best Practices: > 95
+
+LOADING STRATEGY:
+─────────────────
+1. HTML + CSS + Critical JS     → Immediate (< 1s)
+2. Hero text + navigation       → < 1.5s
+3. Hero background image        → < 2s
+4. 3D scene (lazy loaded)       → < 4s
+5. Below-fold content           → On scroll
+
+OPTIMIZATION TECHNIQUES:
+────────────────────────
+- Lazy loading for images (loading="lazy")
+- Lazy loading for 3D (dynamic import)
+- Compressed textures (KTX2/Basis)
+- WebP/AVIF image formats
+- Optimized GLB/GLTF models (Draco compression)
+- Code splitting (Next.js automatic)
+- Responsive images (srcset)
+- GPU-friendly animations (transform, opacity only)
+- Reduced motion accessibility option (prefers-reduced-motion)
+- Font loading: display=swap
+- Preload critical assets
+- Defer non-critical JS
+
+NEXT.JS CONFIG FOR 3D:
+──────────────────────
+// next.config.js
+module.exports = {
+  webpack: (config) => {
+    config.resolve.fallback = { fs: false, path: false };
+    return config;
+  },
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+  },
+};
+
+================================================================================
+SECTION 27: SEO (FULL SCHEMA + META CODE)
+================================================================================
+
+PAGE TITLE:
+───────────
+Ultimate Mechanics | Premium Car Service & Inspection in Hyderabad
+
+META DESCRIPTION:
+─────────────────
+Ultimate Mechanics in Hafeezpet, Hyderabad provides professional
+automotive inspection, servicing and vehicle care. Contact us to
+schedule your service.
+
+TARGET KEYWORDS:
+────────────────
+- Ultimate Mechanics Hyderabad
+- Ultimate Mechanics Hafeezpet
+- Ultimate Mechanics Gopal Nagar
+- car service Hafeezpet
+- car service Hyderabad
+- car inspection Hyderabad
+- car repair Hafeezpet
+- automobile workshop Hyderabad
+- car mechanic Hafeezpet
+- vehicle inspection Hyderabad
+
+NEXT.JS METADATA CODE:
+──────────────────────
+// app/layout.tsx
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Ultimate Mechanics | Premium Car Service & Inspection in Hyderabad',
+  description: 'Ultimate Mechanics in Hafeezpet, Hyderabad provides professional automotive inspection, servicing and vehicle care. Contact us to schedule your service.',
+  keywords: [
+    'Ultimate Mechanics Hyderabad',
+    'Ultimate Mechanics Hafeezpet',
+    'car service Hafeezpet',
+    'car service Hyderabad',
+    'car inspection Hyderabad',
+    'car repair Hafeezpet',
+    'automobile workshop Hyderabad',
+    'car mechanic Hafeezpet',
+    'vehicle inspection Hyderabad',
+  ],
+  openGraph: {
+    title: 'Ultimate Mechanics | Premium Car Service & Inspection',
+    description: 'Professional automotive inspection, servicing and vehicle care in Hafeezpet, Hyderabad.',
+    url: 'https://ultimatemechanics.in',
+    siteName: 'Ultimate Mechanics',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ultimate Mechanics | Premium Car Service',
+    description: 'Professional automotive inspection & service in Hyderabad.',
+    images: ['/og-image.jpg'],
+  },
+  robots: { index: true, follow: true },
+  viewport: 'width=device-width, initial-scale=1',
+  icons: { icon: '/favicon.svg', apple: '/apple-touch-icon.png' },
+};
+
+LOCALBUSINESS JSON-LD SCHEMA:
+─────────────────────────────
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "Ultimate Mechanics",
+  "description": "Premium automotive inspection, service and repair workshop in Hafeezpet, Hyderabad.",
+  "url": "https://ultimatemechanics.in",
+  "telephone": "+919959990827",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No. 605, Road Number 3A, Gopal Nagar, Shilpa Avenue Colony",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "postalCode": "500085",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 17.4839,
+    "longitude": 78.3236
+  },
+  "hasMap": "https://maps.google.com/?q=F9JF+XX+Hyderabad,+Telangana",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "68",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "priceRange": "$$",
+  "areaServed": [
+    { "@type": "Place", "name": "Hafeezpet" },
+    { "@type": "Place", "name": "Gopal Nagar" },
+    { "@type": "Place", "name": "Hyderabad" }
+  ]
+}
+</script>
+
+NOTE: Do not add fake business information to structured data.
+
+HEADING HIERARCHY:
+──────────────────
+H1: "ENGINEERED FOR THE ROAD AHEAD." (Hero)
+H2: Section titles (Services, Why Us, Workshop, etc.)
+H3: Card titles, subsection titles
+H4: Sub-descriptions
+
+================================================================================
+SECTION 28: ACCESSIBILITY
+================================================================================
+
+FOLLOW WCAG 2.1 AA PRINCIPLES:
+───────────────────────────────
+- Keyboard navigation (all interactive elements focusable)
+- Semantic HTML (header, nav, main, section, footer, article)
+- Accessible buttons (aria-label, role)
+- Alt text for all images
+- Proper heading hierarchy (H1 → H2 → H3 → H4)
+- Sufficient contrast (4.5:1 for text, 3:1 for large text)
+- Reduced-motion option (prefers-reduced-motion media query)
+- Screen-reader-friendly navigation (aria-current, aria-expanded)
+- Skip to content link
+- Focus visible indicators
+- Form labels and error messages
+
+REDUCED MOTION CSS:
+───────────────────
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+3D ACCESSIBILITY:
+─────────────────
+- Provide text descriptions for 3D content
+- Ensure all 3D interactions have keyboard alternatives
+- Add aria-labels to interactive 3D elements
+- Provide static image fallback for screen readers
+
+================================================================================
+SECTION 29: FOOTER (FULL SPEC)
+================================================================================
+
+FOOTER CONTENT:
+───────────────
+Brand:
+  ULTIMATE MECHANICS
+  Premium Automotive Service & Inspection
+
+Address:
+  No. 605, Road Number 3A,
+  Gopal Nagar, Shilpa Avenue Colony,
+  Hafeezpet,
+  Hyderabad, Telangana 500085
+
+Phone: 099599 90827
+
+Navigation Links:
+  Home | About | Services | 3D Inspection | Workshop | Reviews | Contact
+
+Social Links:
+  Only displayed if actual social profiles are supplied.
+
+Copyright:
+  © [CURRENT YEAR] Ultimate Mechanics. All rights reserved.
+
+FOOTER STYLE:
+─────────────
+- Background: bg-um-black
+- Border top: border-t border-um-border
+- Padding: py-16
+- Layout: 3-4 column grid on desktop, stacked on mobile
+- Text: text-um-text-dim, text-sm
+
+================================================================================
+SECTION 30: TECHNICAL IMPLEMENTATION
+================================================================================
+
+TECH STACK:
+───────────
+Framework:    Next.js 14+ (App Router)
+Language:     TypeScript
+Styling:      Tailwind CSS
+3D Engine:    Three.js
+3D React:     React Three Fiber + Drei
+Animation:    GSAP + ScrollTrigger
+UI Animation: Framer Motion
+Deployment:   Vercel (recommended)
+
+CLEAN COMPONENT ARCHITECTURE:
+─────────────────────────────
+Use reusable components.
+Keep business information in one configuration/data file.
+Workshop owner can update without modifying application code:
+  - phone
+  - address
+  - opening hours
+  - services
+  - social links
+  - booking settings
+  - Google Maps URL
+  - reviews
+  - images
+
+================================================================================
+SECTION 31: FILE STRUCTURE (COMPLETE)
+================================================================================
+
+ultimate-mechanics/
+├── app/
+│   ├── layout.tsx                    # Root layout + fonts + metadata
+│   ├── page.tsx                      # Main page (all sections)
+│   ├── globals.css                   # Global styles + Tailwind
+│   ├── loading.tsx                   # Next.js loading state
+│   ├── not-found.tsx                 # 404 page
+│   ├── api/
+│   │   └── booking/
+│   │       └── route.ts             # Booking form API
+│   └── sitemap.ts                   # Auto-generated sitemap
+│
+├── components/
+│   ├── 3d/
+│   │   ├── SceneCanvas.tsx          # R3F Canvas wrapper
+│   │   ├── HeroScene.tsx            # Hero 3D scene
+│   │   ├── HeroCamera.tsx           # Cinematic camera
+│   │   ├── CarModel.tsx             # Car model loader
+│   │   ├── DisassemblyScene.tsx     # Exploded view
+│   │   ├── InspectionScene.tsx      # Interactive inspection
+│   │   ├── InspectionHotspot.tsx    # Clickable zones
+│   │   ├── PartLabel.tsx            # Technical labels
+│   │   ├── LoadingFallback.tsx      # 3D loading state
+│   │   ├── PerformanceMonitor.tsx   # FPS + LOD
+│   │   └── ScenePostFX.tsx          # Bloom, vignette
+│   │
+│   ├── sections/
+│   │   ├── HeroSection.tsx          # Hero with 3D
+│   │   ├── DisassemblySection.tsx   # "Every Component"
+│   │   ├── InspectionSection.tsx    # "See What We See"
+│   │   ├── ServicesSection.tsx      # Service cards
+│   │   ├── WhyUsSection.tsx         # Why Ultimate Mechanics
+│   │   ├── WorkshopSection.tsx      # Gallery
+│   │   ├── BeforeAfterSection.tsx   # Before/After slider
+│   │   ├── ReviewsSection.tsx       # 5.0 rating
+│   │   ├── LocationSection.tsx      # Map + address
+│   │   ├── BookingSection.tsx       # Booking form
+│   │   └── FooterSection.tsx        # Footer
+│   │
+│   ├── ui/
+│   │   ├── Button.tsx               # Reusable button
+│   │   ├── Badge.tsx                # Tag/badge
+│   │   ├── Card.tsx                 # Glassmorphism card
+│   │   ├── SectionHeading.tsx       # Section title + subtitle
+│   │   ├── PhoneCTA.tsx             # Call button
+│   │   ├── WhatsAppButton.tsx       # WhatsApp CTA
+│   │   ├── BookingForm.tsx          # Form component
+│   │   └── ScrollIndicator.tsx      # Animated scroll arrow
+│   │
+│   ├── animations/
+│   │   ├── PageLoader.tsx           # Loading screen
+│   │   ├── SectionReveal.tsx        # Scroll reveal
+│   │   ├── TextReveal.tsx           # Text animation
+│   │   ├── LightSweep.tsx           # Metallic sweep
+│   │   └── Counter.tsx              # Number counter
+│   │
+│   ├── navigation/
+│   │   ├── Navbar.tsx               # Sticky nav
+│   │   ├── MobileMenu.tsx           # Hamburger menu
+│   │   └── Footer.tsx               # Footer
+│   │
+│   └── seo/
+│       └── SchemaMarkup.tsx         # JSON-LD
+│
+├── lib/
+│   ├── config.ts                    # ALL business data (CMS-ready)
+│   ├── icons.ts                     # Icon imports
+│   └── utils.ts                     # Helper functions
+│
+├── data/
+│   ├── services.ts                  # 8 services
+│   ├── inspection-zones.ts          # 8 zones
+│   ├── gallery.ts                   # Gallery images
+│   └── navigation.ts                # Nav links
+│
+├── public/
+│   ├── models/
+│   │   ├── car-draco.glb            # Main car model (< 5MB)
+│   │   ├── car-lod1.glb             # Medium LOD
+│   │   └── car-lod2.glb             # Low LOD
+│   ├── images/
+│   │   ├── hero-fallback.webp       # Static hero fallback
+│   │   ├── og-image.jpg             # Social media image
+│   │   ├── services/                # 8 service images
+│   │   ├── gallery/                 # 12 gallery images
+│   │   └── before-after/            # 8 before/after images
+│   ├── textures/
+│   │   ├── workshop-floor.jpg       # Concrete texture
+│   │   └── hdri-studio.hdr          # Environment map
+│   ├── favicon.svg                  # Favicon
+│   ├── logo-primary.svg             # Full logo
+│   ├── logo-icon.svg                # Icon only
+│   ├── logo-mono.svg                # Monochrome
+│   └── apple-touch-icon.png         # iOS icon
+│
+├── tailwind.config.ts               # Full Tailwind config
+├── tsconfig.json                    # TypeScript config
+├── next.config.js                   # Next.js config
+├── package.json                     # Dependencies
+├── .env.local                       # Environment variables
+└── README.md                        # Setup instructions
+
+================================================================================
+SECTION 32: CONFIG FILE (ALL BUSINESS DATA)
+================================================================================
+
+// /lib/config.ts
+// SINGLE SOURCE OF TRUTH — Workshop owner edits ONLY this file
+
+export const BUSINESS = {
+  name: 'Ultimate Mechanics',
+  tagline: 'Precision in Every Detail.',
+  phone: '099599 90827',
+  phoneRaw: '+919959990827',
+  whatsapp: '919959990827',
+  email: '', // TODO: Add when available
+
+  address: {
+    line1: 'No. 605, Road Number 3A',
+    line2: 'Gopal Nagar, Shilpa Avenue Colony',
+    city: 'Hafeezpet, Hyderabad',
+    state: 'Telangana',
+    pincode: '500085',
+    country: 'India',
+  },
+
+  maps: {
+    plusCode: 'F9JF+XX Hyderabad, Telangana',
+    directionsUrl: 'https://maps.google.com/?q=F9JF+XX+Hyderabad,+Telangana',
+    embedUrl: '', // TODO: Get from Google Maps → Share → Embed
+  },
+
+  rating: {
+    score: 5.0,
+    count: 68,
+    source: 'Google',
+    url: '', // TODO: Add Google Reviews URL
+  },
+
+  ownership: 'Women-owned',
+
+  hours: {
+    // TODO: Add actual hours
+    monday: '9:00 AM – 7:00 PM',
+    tuesday: '9:00 AM – 7:00 PM',
+    wednesday: '9:00 AM – 7:00 PM',
+    thursday: '9:00 AM – 7:00 PM',
+    friday: '9:00 AM – 7:00 PM',
+    saturday: '9:00 AM – 7:00 PM',
+    sunday: 'Closed', // TODO: Confirm
+  },
+
+  social: {
+    // TODO: Add only if profiles exist
+    instagram: '',
+    facebook: '',
+    youtube: '',
+    linkedin: '',
+  },
+} as const;
+
+================================================================================
+SECTION 33: ENVIRONMENT VARIABLES
+================================================================================
+
+# .env.local
+
+# Google Maps (for embed + directions)
+NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL="https://www.google.com/maps/embed?pb=..."
+
+# Booking form backend (choose one):
+# Option A: Formspree
+FORMSPREE_FORM_ID=""
+
+# Option B: SendGrid (email notifications)
+SENDGRID_API_KEY=""
+BOOKING_NOTIFY_EMAIL=""
+
+# Option C: Supabase (database)
+SUPABASE_URL=""
+SUPABASE_ANON_KEY=""
+
+# WhatsApp Business API (optional)
+WHATSAPP_API_KEY=""
+
+# Site URL
+NEXT_PUBLIC_SITE_URL="https://ultimatemechanics.in"
+
+NOTE: Never expose private API keys in frontend code.
+
+================================================================================
+SECTION 34: FALLBACK ASSETS
+================================================================================
+
+IF 3D CANNOT LOAD (mobile, low-power, WebGL not supported):
+
+STATIC IMAGE FALLBACKS:
+───────────────────────
+1. /public/images/hero-fallback.webp
+   → Cinematic dark workshop with car, 1920x1080
+   → Source: Unsplash "luxury car workshop dark"
+
+2. /public/images/disassembly-fallback.webp
+   → Exploded view technical illustration
+   → Source: Pexels "car engine parts"
+
+3. /public/images/inspection-fallback.webp
+   → Car with highlighted zones overlay
+   → Source: Create with CSS overlay on car image
+
+VIDEO FALLBACK (Optional for tablet):
+─────────────────────────────────────
+15-second looping video:
+  → Cinematic car workshop scene
+  → Source: https://www.pexels.com/videos/ (search "car workshop")
+  → Format: MP4 (H.264) + WebM (VP9)
+  → Size: < 5MB
+  → Usage: <video autoPlay muted loop playsInline poster={fallbackImage}>
+
+================================================================================
+SECTION 35: ASSET OPTIMIZATION PIPELINE
+================================================================================
+
+3D MODEL OPTIMIZATION:
+──────────────────────
+1. Export from source as GLB
+2. Compress with Draco: gltf-transform draco input.glb output.glb
+3. Reduce polygons if > 80k
+4. Compress textures to 2K max
+5. Create LOD variants (LOD0, LOD1, LOD2)
+6. Verify in https://gltf-viewer.donmccurdy.com/
+7. Target: < 5MB per model
+
+IMAGE OPTIMIZATION:
+───────────────────
+1. Export from source at 2x display size
+2. Compress with Squoosh (https://squoosh.app/)
+3. Convert to WebP (quality 80-85)
+4. Create AVIF variant for modern browsers
+5. Create responsive variants (1x, 2x)
+6. Add width/height attributes to prevent CLS
+
+TEXTURE OPTIMIZATION:
+─────────────────────
+1. Resize to 1K or 2K (no need for 4K on web)
+2. Compress with KTX2/Basis for GPU-friendly format
+3. Use https://github.com/KhronosGroup/KTX-Software
+
+FONT OPTIMIZATION:
+──────────────────
+1. Use next/font for automatic optimization
+2. Subset fonts to Latin characters only
+3. Use font-display: swap
+4. Preload critical fonts
+
+================================================================================
+SECTION 36: DEPLOYMENT CHECKLIST
+================================================================================
+
+PRE-LAUNCH:
+───────────
+[ ] All images compressed and in WebP/AVIF
+[ ] 3D models compressed with Draco, < 5MB
+[ ] All fonts loaded via next/font
+[ ] Lighthouse scores > 90 (all categories)
+[ ] Meta tags complete (title, description, OG, Twitter)
+[ ] Schema markup validated (https://validator.schema.org/)
+[ ] Sitemap.xml generated
+[ ] robots.txt configured
+[ ] Favicon and apple-touch-icon in place
+[ ] 404 page created
+[ ] Booking form tested (all states)
+[ ] Phone number clickable (tel: link)
+[ ] WhatsApp link working
+[ ] Google Maps embed working
+[ ] All sections responsive (mobile, tablet, desktop)
+[ ] 3D fallback working on mobile
+[ ] Reduced motion respected
+[ ] Keyboard navigation working
+[ ] No console errors
+[ ] No broken links
+[ ] All placeholder content marked for replacement
+
+DEPLOYMENT (VERCEL):
+────────────────────
+1. Push to GitHub
+2. Import in Vercel
+3. Set environment variables
+4. Deploy
+5. Verify custom domain
+6. Test all features in production
+
+POST-LAUNCH:
+────────────
+[ ] Submit sitemap to Google Search Console
+[ ] Verify Google Business Profile link
+[ ] Test Core Web Vitals in production
+[ ] Monitor error logs
+[ ] Collect user feedback
+
+================================================================================
+SECTION 37: IMPORTANT CONSTRAINTS (DO NOT)
+================================================================================
+
+Do NOT create:
+  - Generic garage template
+  - Cheap stock-photo layout
+  - Cartoon mechanics
+  - Excessive neon
+  - Excessive red racing graphics
+  - Cluttered UI
+  - Fake testimonials
+  - Fake certifications
+  - Fake awards
+  - Fake brand partnerships
+  - Fake statistics
+  - Fake services
+  - Fake customer names
+  - Fake Google reviews
+  - Fake workshop claims
+
+Do NOT copy Porsche, BMW, Mercedes, Audi, Lamborghini
+or any other brand website.
+Use them only as inspiration for premium quality,
+not for copying design or branding.
+
+Do NOT invent a different phone number.
+Do NOT add fake business information to structured data.
+Do NOT expose private API keys in frontend code.
+Do NOT make unsupported technical claims.
+
+================================================================================
+SECTION 38: FINAL QUALITY BAR
+================================================================================
+
+The finished website should look like a website that a
+HIGH-END AUTOMOTIVE ENGINEERING COMPANY could launch.
+
+It should be:
+  ✓ Premium
+  ✓ Cinematic
+  ✓ Technical
+  ✓ Modern
+  ✓ Trustworthy
+  ✓ Interactive
+  ✓ Fast
+  ✓ Responsive
+  ✓ SEO-ready
+  ✓ Conversion-focused
+
+Most importantly:
+MAKE ULTIMATE MECHANICS LOOK LIKE A PREMIUM,
+TECHNOLOGY-DRIVEN AUTOMOTIVE WORKSHOP — NOT A GENERIC
+LOCAL GARAGE.
+
+Build the complete experience, not just a landing page.
+
+The 3D automotive experience is a CORE FEATURE,
+not a decorative afterthought.
+
+The vehicle disassembly and reassembly sequence must
+look like a premium engineering visualization.
+
+Think:
+  Automotive engineering presentation
+  + luxury product launch
+  + interactive technical exploded diagram.
+
+The animation should communicate:
+"WE UNDERSTAND WHAT IS INSIDE YOUR CAR."
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+
+ASSET DOWNLOAD CHECKLIST (FOR DEVELOPER):
+─────────────────────────────────────────
+[ ] Download 3D car model from Sketchfab (free, CC-BY)
+[ ] Download HDRI environment from Poly Haven
+[ ] Download PBR textures from ambientCG
+[ ] Download hero image from Unsplash
+[ ] Download 8 service card images from Unsplash
+[ ] Download 12 gallery images from Unsplash
+[ ] Download 8 before/after images from Unsplash
+[ ] Create OG image (1200x630)
+[ ] Compress all images to WebP via Squoosh
+[ ] Compress 3D model with Draco
+[ ] Create LOD variants of 3D model
+[ ] Test all assets in glTF viewer
+[ ] Verify all file sizes within budget
+
+================================================================================

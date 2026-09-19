@@ -1,0 +1,1038 @@
+You are an expert senior UI/UX designer, luxury automotive brand designer, creative director, 3D web designer, motion designer, and full-stack web developer.
+
+Build a COMPLETE, PRODUCTION-QUALITY, PREMIUM AUTOMOTIVE WORKSHOP WEBSITE for:
+
+==================================================
+BRAND
+==================================================
+
+Business Name:
+ULTIMATE MECHANICS
+
+Location:
+No. 605, Road Number 3A,
+Gopal Nagar, Shilpa Avenue Colony,
+Hafeezpet, Hyderabad,
+Telangana 500085, India
+
+Phone:
+099599 90827
+
+Google Maps Plus Code:
+F9JF+XX Hyderabad, Telangana
+
+Business Category:
+Car Inspection / Automobile Service & Repair Workshop
+
+Google rating shown:
+5.0 ★
+
+Review count shown:
+68 reviews
+
+Google Maps ownership label:
+Women-owned
+
+The website must position Ultimate Mechanics as a PREMIUM, TRUSTWORTHY,
+TECHNOLOGY-DRIVEN AUTOMOTIVE SERVICE AND INSPECTION WORKSHOP serving
+Hyderabad, particularly Hafeezpet, Gopal Nagar, Shilpa Avenue Colony,
+Hydernagar and surrounding areas.
+
+IMPORTANT:
+Do not invent certifications, awards, manufacturer authorizations,
+dealer partnerships, services, prices, customer testimonials,
+or technical claims that have not been provided.
+
+Where business information is unavailable, create elegant placeholder
+content that can easily be replaced from the CMS/configuration.
+
+==================================================
+CORE CREATIVE DIRECTION
+==================================================
+
+The website should feel like:
+
+Luxury automotive brand
++
+Advanced engineering laboratory
++
+Premium car service center
++
+Modern technology company
+
+It must NOT look like a generic local garage website.
+
+Visual references in spirit:
+
+Porsche-level premium presentation
+BMW/Mercedes-style engineering confidence
+Luxury detailing studio
+High-end automotive technology website
+Modern cinematic 3D product website
+
+Do NOT copy any existing brand's website.
+
+Create a completely original visual identity for Ultimate Mechanics.
+
+==================================================
+DESIGN LANGUAGE
+==================================================
+
+Use a sophisticated dark automotive environment.
+
+Primary visual direction:
+
+- deep black
+- graphite
+- gunmetal
+- dark metallic surfaces
+- subtle silver
+- controlled white typography
+- restrained premium accent color
+
+Avoid excessive gradients.
+
+Avoid cheap-looking neon effects.
+
+Avoid cartoonish automotive graphics.
+
+Everything should feel engineered, precise and premium.
+
+Use:
+
+- glassmorphism where appropriate
+- metallic surfaces
+- subtle reflections
+- realistic shadows
+- cinematic lighting
+- fine technical grid patterns
+- subtle blueprint elements
+- precision lines
+- micro-interactions
+- smooth transitions
+- depth
+- realistic automotive materials
+
+Typography should be premium and highly readable.
+
+Use a modern geometric/sans-serif font pairing.
+
+==================================================
+LOGO DESIGN
+==================================================
+
+Create a PROFESSIONAL ORIGINAL LOGO for:
+
+ULTIMATE MECHANICS
+
+The logo should communicate:
+
+- precision
+- mechanical engineering
+- automotive expertise
+- trust
+- premium quality
+- performance
+- technical excellence
+
+Create an icon + wordmark system.
+
+Possible visual direction:
+
+A sophisticated mechanical "U" combined subtly with:
+
+- gear geometry
+- precision mechanical lines
+- automotive silhouette
+- wrench/engineering geometry
+
+IMPORTANT:
+
+Do NOT create a generic clip-art wrench logo.
+
+Do NOT make it look like a cheap local mechanic logo.
+
+The logo should work in:
+
+1. Website header
+2. Dark background
+3. Light background
+4. Vehicle sticker
+5. Workshop signage
+6. Business card
+7. Social media profile
+8. Favicon
+
+Create:
+
+- primary logo
+- compact icon
+- monochrome version
+- favicon
+
+The wordmark should read exactly:
+
+ULTIMATE MECHANICS
+
+==================================================
+HERO SECTION
+==================================================
+
+The first screen must be spectacular.
+
+Create a full-screen cinematic 3D automotive scene.
+
+Scene:
+
+A premium modern automobile is positioned inside a sophisticated
+automotive workshop.
+
+The workshop should look realistic:
+
+- polished concrete floor
+- dark architectural interior
+- professional vehicle lift
+- diagnostic equipment
+- precision tools
+- dramatic overhead lighting
+- subtle atmospheric haze
+- realistic reflections
+- premium workshop environment
+
+The vehicle should be presented like a luxury product.
+
+Use realistic 3D rendering.
+
+Camera:
+
+Start with a slow cinematic camera movement around the vehicle.
+
+Then transition toward the front quarter of the car.
+
+Headline:
+
+"ENGINEERED FOR
+THE ROAD AHEAD."
+
+Supporting text:
+
+"Precision inspection. Expert automotive care.
+Built around your vehicle."
+
+Primary CTA:
+
+BOOK A SERVICE
+
+Secondary CTA:
+
+EXPLORE OUR WORK
+
+Include a subtle animated scroll indicator.
+
+==================================================
+3D AUTOMOTIVE EXPERIENCE
+==================================================
+
+This is one of the most important parts of the website.
+
+Implement an interactive 3D vehicle experience using Three.js,
+React Three Fiber, or another appropriate WebGL solution.
+
+If an actual 3D model is unavailable, create a visually convincing
+fallback using a high-quality automotive render/animated asset.
+
+The 3D car must NOT look like a toy.
+
+Use realistic:
+
+- metallic paint
+- glass
+- tires
+- brake components
+- headlights
+- body panels
+- engine components
+
+==================================================
+CAR DISASSEMBLY EXPERIENCE
+==================================================
+
+Create a major interactive section titled:
+
+"EVERY COMPONENT.
+EVERY DETAIL."
+
+Subheading:
+
+"Precision begins beneath the surface."
+
+Show a realistic car in 3D.
+
+Create an interactive DISASSEMBLY animation.
+
+When the user scrolls or interacts:
+
+Step 1:
+Vehicle appears fully assembled.
+
+Step 2:
+Body panels subtly separate.
+
+Step 3:
+Wheels move outward.
+
+Step 4:
+Brake assemblies become visible.
+
+Step 5:
+Suspension components separate.
+
+Step 6:
+Engine compartment reveals major components.
+
+Step 7:
+Transmission/drivetrain components become visible.
+
+Step 8:
+Interior elements subtly separate.
+
+Step 9:
+All major components float in an organized exploded-view
+engineering arrangement.
+
+The animation should resemble a professional engineering
+exploded diagram.
+
+Do NOT make it look destructive.
+
+The components should separate smoothly and mechanically,
+as if the vehicle is being professionally disassembled.
+
+Add subtle labels:
+
+ENGINE
+BRAKES
+SUSPENSION
+TRANSMISSION
+COOLING
+ELECTRICAL
+BODY
+INTERIOR
+
+Each label can appear with thin technical connector lines.
+
+==================================================
+REASSEMBLY ANIMATION
+==================================================
+
+After the exploded view, create a reverse animation.
+
+Text:
+
+"PRECISION PUT BACK TOGETHER."
+
+The components smoothly return to their original positions.
+
+The vehicle becomes fully assembled again.
+
+Finish with:
+
+"READY FOR THE ROAD."
+
+Add a subtle lighting sweep across the finished vehicle.
+
+==================================================
+INTERACTIVE VEHICLE INSPECTION
+==================================================
+
+Create another section:
+
+"SEE WHAT WE SEE."
+
+Display a 3D vehicle.
+
+Allow users to select inspection zones.
+
+Clickable areas:
+
+ENGINE
+BRAKES
+SUSPENSION
+TYRES
+ELECTRICAL
+COOLING
+TRANSMISSION
+BODY
+
+When a user clicks a component:
+
+- camera smoothly moves toward that area
+- component highlights
+- technical information panel appears
+- subtle animation explains the component
+
+Do not make unsupported technical claims about Ultimate Mechanics.
+
+This is a visual educational/brand experience.
+
+==================================================
+SERVICES SECTION
+==================================================
+
+Create:
+
+"PRECISION SERVICE.
+WITHOUT COMPROMISE."
+
+Use premium animated service cards.
+
+Potential service categories should be presented carefully
+as service categories that can be edited to match the workshop's
+actual offerings.
+
+Examples:
+
+01
+VEHICLE INSPECTION
+
+02
+GENERAL SERVICE
+
+03
+DIAGNOSTIC CHECK
+
+04
+BRAKE INSPECTION
+
+05
+ENGINE SERVICE
+
+06
+SUSPENSION CHECK
+
+07
+ELECTRICAL DIAGNOSTICS
+
+08
+PREVENTIVE MAINTENANCE
+
+IMPORTANT:
+Do not claim these are officially offered services unless confirmed.
+Make the service list configurable.
+
+Each card should have:
+
+- premium automotive visual
+- subtle 3D icon
+- hover animation
+- technical micro-animation
+- short description
+- "LEARN MORE"
+
+==================================================
+WHY ULTIMATE MECHANICS
+==================================================
+
+Create a section:
+
+"WHY ULTIMATE MECHANICS?"
+
+Use four or five premium feature blocks.
+
+Possible messaging:
+
+PRECISION
+"Every inspection begins with attention to detail."
+
+TRANSPARENCY
+"Clear communication throughout the service process."
+
+EXPERTISE
+"Automotive care focused on your vehicle's condition."
+
+TECHNOLOGY
+"Modern diagnostic thinking for modern vehicles."
+
+CARE
+"Your vehicle receives focused attention from inspection
+through completion."
+
+Do not invent certifications or unsupported credentials.
+
+==================================================
+WORKSHOP EXPERIENCE
+==================================================
+
+Create a cinematic section showing the workshop environment.
+
+Use:
+
+- mechanic working on vehicle
+- diagnostic equipment
+- vehicle lift
+- wheel/brake inspection
+- engine inspection
+- detailed mechanical work
+
+If real workshop photographs are available,
+allow them to replace generated imagery.
+
+Create an elegant gallery.
+
+Gallery interactions:
+
+- smooth image transitions
+- hover zoom
+- full-screen lightbox
+- cinematic scrolling
+- category filters
+
+==================================================
+BEFORE / AFTER EXPERIENCE
+==================================================
+
+Create:
+
+"THE DIFFERENCE IS IN THE DETAIL."
+
+Use an interactive before/after slider.
+
+Possible examples:
+
+Before inspection
+After service
+
+Dirty/used component
+Inspected/serviced component
+
+Vehicle exterior
+Detailed vehicle exterior
+
+Do NOT falsely imply that these are actual
+Ultimate Mechanics customer vehicles unless actual
+photos are provided.
+
+==================================================
+CUSTOMER TRUST SECTION
+==================================================
+
+Create a premium reputation section.
+
+Display:
+
+5.0 ★
+
+68 Google Reviews
+
+Use:
+
+"Rated 5.0 on Google"
+
+Do not fabricate individual review text.
+
+Instead create:
+
+"See what our customers say"
+
+CTA:
+
+VIEW GOOGLE REVIEWS
+
+If actual Google review content is later supplied,
+add it here.
+
+==================================================
+LOCATION SECTION
+==================================================
+
+Title:
+
+"FIND ULTIMATE MECHANICS"
+
+Display the workshop address:
+
+No. 605, Road Number 3A,
+Gopal Nagar, Shilpa Avenue Colony,
+Hafeezpet,
+Hyderabad, Telangana 500085
+
+Phone:
+
+099599 90827
+
+Plus Code:
+
+F9JF+XX Hyderabad, Telangana
+
+Create an elegant interactive map section.
+
+Include:
+
+GET DIRECTIONS
+
+CALL WORKSHOP
+
+BOOK A SERVICE
+
+Use Google Maps integration where appropriate.
+
+==================================================
+BOOK A SERVICE
+==================================================
+
+Create a premium booking form.
+
+Fields:
+
+Name
+Phone
+Vehicle Brand
+Vehicle Model
+Service Required
+Preferred Date
+Preferred Time
+Additional Message
+
+CTA:
+
+REQUEST SERVICE
+
+The form must have:
+
+- validation
+- loading state
+- success state
+- error state
+
+Do not expose private API keys in frontend code.
+
+Make the form backend-ready.
+
+==================================================
+PHONE + WHATSAPP
+==================================================
+
+Make the phone number highly accessible.
+
+Phone:
+
+099599 90827
+
+Create:
+
+CALL NOW
+
+Also create a WhatsApp CTA if a WhatsApp contact is confirmed.
+
+Do not invent a different phone number.
+
+==================================================
+NAVIGATION
+==================================================
+
+Sticky premium navigation.
+
+Logo:
+ULTIMATE MECHANICS
+
+Navigation:
+
+HOME
+ABOUT
+SERVICES
+3D INSPECTION
+WORKSHOP
+REVIEWS
+CONTACT
+
+Right side CTA:
+
+BOOK A SERVICE
+
+On mobile:
+
+Hamburger menu
++
+persistent booking/call CTA.
+
+==================================================
+MOTION DESIGN
+==================================================
+
+Motion must be smooth and sophisticated.
+
+Use:
+
+GSAP
+ScrollTrigger
+Three.js
+React Three Fiber
+Framer Motion
+
+where appropriate.
+
+Animations:
+
+- cinematic hero camera movement
+- text reveal
+- image reveal
+- metallic light sweeps
+- smooth card transitions
+- component explosions
+- component reassembly
+- scroll-based 3D rotation
+- hover micro-interactions
+- button feedback
+- page transitions
+
+Avoid excessive animation.
+
+The objective is:
+
+LUXURY + ENGINEERING + PRECISION
+
+not:
+
+FLASHY + CHAOTIC.
+
+==================================================
+PAGE TRANSITIONS
+==================================================
+
+Create a premium loading experience.
+
+Loading screen:
+
+ULTIMATE MECHANICS
+
+with a subtle mechanical/technical animation.
+
+Example:
+
+A thin circular mechanical ring rotates.
+
+Then the logo resolves.
+
+Then the page reveals itself.
+
+Keep loading short.
+
+Never make users wait unnecessarily for a large 3D asset.
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+The website must work perfectly on:
+
+Desktop
+Laptop
+Tablet
+Mobile
+
+Important:
+
+The 3D experience must have performance fallbacks.
+
+Desktop:
+Full interactive 3D.
+
+Tablet:
+Reduced polygon count / simplified animation.
+
+Mobile:
+Optimized 3D or cinematic video/render fallback.
+
+Low-powered devices:
+Use static/high-quality animated fallback.
+
+Never allow 3D to make the website unusably slow.
+
+==================================================
+PERFORMANCE
+==================================================
+
+Optimize aggressively.
+
+Use:
+
+- lazy loading
+- compressed textures
+- WebP/AVIF
+- optimized GLB/GLTF models
+- Draco compression where appropriate
+- lazy loading for 3D
+- code splitting
+- responsive images
+- GPU-friendly animations
+- reduced motion accessibility option
+
+Target:
+
+Excellent Lighthouse performance.
+
+The initial page must load quickly even if the
+3D experience loads progressively.
+
+==================================================
+SEO
+==================================================
+
+Optimize for:
+
+Ultimate Mechanics Hyderabad
+Ultimate Mechanics Hafeezpet
+Ultimate Mechanics Gopal Nagar
+car service Hafeezpet
+car service Hyderabad
+car inspection Hyderabad
+car repair Hafeezpet
+automobile workshop Hyderabad
+car mechanic Hafeezpet
+vehicle inspection Hyderabad
+
+Create:
+
+Title:
+
+Ultimate Mechanics | Premium Car Service & Inspection in Hyderabad
+
+Meta description:
+
+"Ultimate Mechanics in Hafeezpet, Hyderabad provides professional
+automotive inspection, servicing and vehicle care. Contact us to
+schedule your service."
+
+Use proper:
+
+H1
+H2
+H3
+schema markup
+LocalBusiness schema
+AutomotiveBusiness schema where appropriate
+Open Graph metadata
+Twitter/X metadata
+favicon
+canonical URL
+
+Do not add fake business information to structured data.
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Follow WCAG principles.
+
+Include:
+
+- keyboard navigation
+- semantic HTML
+- accessible buttons
+- alt text
+- proper heading hierarchy
+- sufficient contrast
+- reduced-motion option
+- screen-reader-friendly navigation
+
+==================================================
+FOOTER
+==================================================
+
+Footer should contain:
+
+ULTIMATE MECHANICS
+
+Premium Automotive Service & Inspection
+
+Address
+
+No. 605, Road Number 3A,
+Gopal Nagar, Shilpa Avenue Colony,
+Hafeezpet,
+Hyderabad, Telangana 500085
+
+Phone:
+
+099599 90827
+
+Navigation links.
+
+Social links should only be displayed if actual
+social profiles are supplied.
+
+Add:
+
+© [CURRENT YEAR] Ultimate Mechanics.
+All rights reserved.
+
+==================================================
+TECHNICAL IMPLEMENTATION
+==================================================
+
+Preferred stack:
+
+Next.js
+React
+TypeScript
+Tailwind CSS
+Three.js
+React Three Fiber
+GSAP / Framer Motion
+
+Use clean component architecture.
+
+Suggested structure:
+
+/app
+/components
+/components/3d
+/components/sections
+/components/ui
+/public
+/public/models
+/public/images
+/lib
+/data
+
+Create reusable components.
+
+Keep business information in one configuration/data file so
+the workshop owner can update:
+
+- phone
+- address
+- opening hours
+- services
+- social links
+- booking settings
+- Google Maps URL
+- reviews
+- images
+
+without modifying the entire application.
+
+==================================================
+IMPORTANT 3D REQUIREMENT
+==================================================
+
+The 3D automotive experience is a CORE FEATURE,
+not a decorative afterthought.
+
+The vehicle disassembly and reassembly sequence must
+look like a premium engineering visualization.
+
+Think:
+
+Automotive engineering presentation
++
+luxury product launch
++
+interactive technical exploded diagram.
+
+The animation should communicate:
+
+"WE UNDERSTAND WHAT IS INSIDE YOUR CAR."
+
+==================================================
+BRAND MESSAGE
+==================================================
+
+Primary brand statement:
+
+"PRECISION IN EVERY DETAIL."
+
+Secondary:
+
+"ENGINEERED FOR THE ROAD AHEAD."
+
+Supporting:
+
+"Professional automotive inspection, service and care
+with attention to every component that matters."
+
+==================================================
+FINAL EXPERIENCE
+==================================================
+
+When a visitor opens the website, the emotional progression should be:
+
+1. WOW
+2. TRUST
+3. TECHNOLOGY
+4. EXPERTISE
+5. TRANSPARENCY
+6. ACTION
+
+The visitor should immediately understand:
+
+WHO:
+Ultimate Mechanics
+
+WHAT:
+Automotive inspection/service/workshop
+
+WHERE:
+Hafeezpet, Hyderabad
+
+WHY:
+Precision, technology, attention to detail
+
+ACTION:
+Book a service / call the workshop
+
+==================================================
+DO NOT
+==================================================
+
+Do NOT create:
+
+- generic garage template
+- cheap stock-photo layout
+- cartoon mechanics
+- excessive neon
+- excessive red racing graphics
+- cluttered UI
+- fake testimonials
+- fake certifications
+- fake awards
+- fake brand partnerships
+- fake statistics
+- fake services
+- fake customer names
+- fake Google reviews
+- fake workshop claims
+
+Do NOT copy Porsche, BMW, Mercedes, Audi,
+Lamborghini or any other brand website.
+
+Use them only as inspiration for premium quality,
+not for copying design or branding.
+
+==================================================
+FINAL QUALITY BAR
+==================================================
+
+The finished website should look like a website that a
+HIGH-END AUTOMOTIVE ENGINEERING COMPANY could launch.
+
+It should be:
+
+Premium
+Cinematic
+Technical
+Modern
+Trustworthy
+Interactive
+Fast
+Responsive
+SEO-ready
+Conversion-focused
+
+Most importantly:
+
+MAKE ULTIMATE MECHANICS LOOK LIKE A PREMIUM,
+TECHNOLOGY-DRIVEN AUTOMOTIVE WORKSHOP — NOT A GENERIC
+LOCAL GARAGE.
+
+Build the complete experience, not just a landing page.

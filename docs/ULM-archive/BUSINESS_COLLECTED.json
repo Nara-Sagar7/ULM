@@ -1,0 +1,126 @@
+{
+  "source": "Google Maps Places API (New) - 2026-09-19",
+  "query": "Ultimate mechanics Hafeezpet Hyderabad",
+  "google_maps_txt": "https://www.google.com/maps/place/Ultimate+mechanics/@17.4824359,78.3724189,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb930226760589:0x22cea608a0af3259!8m2!3d17.4824308!4d78.3749938!16s%2Fg%2F11tx85j28p",
+  "placeId": "ChIJiQV2JgKTyzsRWTKvoAimziI",
+  "cid": "2508124598477730393",
+  "business": {
+    "name": "Ultimate mechanics",
+    "nameCorrect": "ULTIMATE MECHANICS",
+    "tagline": "Precision in Every Detail.",
+    "secondaryTagline": "ENGINEERED FOR THE ROAD AHEAD.",
+    "phone": "099599 90827",
+    "phoneRaw": "+91 99599 90827",
+    "phoneE164": "+919959990827",
+    "whatsapp": "919959990827",
+    "whatsappUrl": "https://wa.me/919959990827?text=Hi%2C%20I%20would%20like%20to%20book%20a%20service%20at%20Ultimate%20Mechanics.",
+    "email": null,
+    "address": {
+      "formatted": "no 605, Rd Number 3A, Gopal Nagar, Shilpa Avenue Colony, Hafeezpet, Hyderabad, Telangana 500085, India",
+      "line1": "No. 605, Road Number 3A",
+      "line2": "Gopal Nagar, Shilpa Avenue Colony",
+      "city": "Hafeezpet, Hyderabad",
+      "state": "Telangana",
+      "pincode": "500085",
+      "country": "India",
+      "plusCode": "F9JF+XX Hyderabad, Telangana, India",
+      "globalPlusCode": "7J9WF9JF+XX",
+      "latitude": 17.4824308,
+      "longitude": 78.3749938
+    },
+    "maps": {
+      "placeId": "ChIJiQV2JgKTyzsRWTKvoAimziI",
+      "cid": "2508124598477730393",
+      "googleMapsUri": "https://maps.google.com/?cid=2508124598477730393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=17.4824308,78.3749938",
+      "directionsUrlAlternative": "https://www.google.com/maps/dir/?api=1&destination=Ultimate+Mechanics+Hafeezpet+Hyderabad",
+      "embedUrlClassic": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.0!2d78.3749938!3d17.4824308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sChIJiQV2JgKTyzsRWTKvoAimziI!2sUltimate%20mechanics!5e0!3m2!1sen!2sin!4v1726730000000",
+      "embedUrlNote": "For production, go to https://maps.google.com/?cid=2508124598477730393 -> Share -> Embed a map -> copy iframe src -> paste to NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL. The above is a generated placeholder that works but manual embed is more accurate.",
+      "originalGoogleMapsTxt": "https://www.google.com/maps/place/Ultimate+mechanics/@17.4824359,78.3724189,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb930226760589:0x22cea608a0af3259!8m2!3d17.4824308!4d78.3749938!16s%2Fg%2F11tx85j28p"
+    },
+    "rating": {
+      "score": 5.0,
+      "count": 68,
+      "source": "Google",
+      "url": "https://maps.google.com/?cid=2508124598477730393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "reviewsUrl": "https://www.google.com/maps/place/Ultimate+mechanics/@17.4824308,78.3749938,17z/data=!4m8!3m7!1s0x3bcb930226760589:0x22cea608a0af3259!8m2!3d17.4824308!4d78.3749938!9m1!1b1!16s%2Fg%2F11tx85j28p"
+    },
+    "hours": {
+      "monday": "9:30 AM – 6:30 PM",
+      "tuesday": "9:30 AM – 6:30 PM",
+      "wednesday": "9:30 AM – 6:30 PM",
+      "thursday": "9:30 AM – 6:30 PM",
+      "friday": "9:30 AM – 5:30 PM",
+      "saturday": "9:30 AM – 6:30 PM",
+      "sunday": "Closed",
+      "openNow": true,
+      "nextCloseTime": "2026-09-19T13:00:00Z",
+      "weekdayDescriptions": [
+        "Monday: 9:30 AM – 6:30 PM",
+        "Tuesday: 9:30 AM – 6:30 PM",
+        "Wednesday: 9:30 AM – 6:30 PM",
+        "Thursday: 9:30 AM – 6:30 PM",
+        "Friday: 9:30 AM – 5:30 PM",
+        "Saturday: 9:30 AM – 6:30 PM",
+        "Sunday: Closed"
+      ]
+    },
+    "reviewsCollected": [
+      {
+        "author": "Naidu Gaaru",
+        "rating": 5,
+        "time": "3 months ago",
+        "date": "2026-06-02",
+        "text": "Excellent Service by Ultimate Mechanics - Siva. I recently took my Fiat Punto Diesel for general service, lower arm noise, and ABS warning. Siva diagnosed and fixed all issues professionally, explained clearly, completed efficiently, very reasonable cost. Car feels much smoother, suspension noise gone, ABS resolved. Highly recommend Siva's technical knowledge and honest approach.",
+        "googleMapsUri": "https://www.google.com/maps/contrib/112113241897890796723/reviews"
+      },
+      {
+        "author": "Sandy San",
+        "rating": 5,
+        "time": "8 months ago",
+        "text": "Ultimate mechanic workshop is best place for repair luxury cars and normal cars. Shiva is the finest engineer i have never seen. Previously my car mileage was below 10kms and after rectified technical issues (mileage was above 12kms.) I'm very much satisfied by his work.",
+        "googleMapsUri": "https://www.google.com/maps/contrib/116394159853956924648/reviews"
+      },
+      {
+        "author": "ravikumar dharmavarapu",
+        "rating": 5,
+        "time": "8 months ago",
+        "text": "I visited this garage 15 days back to get my car repaired, and I was extremely satisfied with their service. They provide genuine, high-quality work, and their customer reception and explanations are excellent. They are certified to service and repair all kinds of top-end vehicles. I referred my friends also they said got premium services compared with costly showroom services.",
+        "googleMapsUri": "https://www.google.com/maps/contrib/117584426060208781912/reviews"
+      },
+      {
+        "author": "satish ch",
+        "rating": 5,
+        "time": "7 months ago",
+        "text": "Very good work. The technician is well trained and professional. After giving the vehicle here, we can leave with complete satisfaction.",
+        "googleMapsUri": "https://www.google.com/maps/contrib/103588408974141149042/reviews"
+      },
+      {
+        "author": "Santhosh Kumar",
+        "rating": 5,
+        "time": "7 months ago",
+        "text": "Ultimate Mechanic Workshop delivers top-notch car servicing with skilled technicians and reliable results. Positive reviews emphasize their punctuality, fair pricing, and customer-focused approach.",
+        "googleMapsUri": "https://www.google.com/maps/contrib/108029296025604532002/reviews"
+      }
+    ],
+    "photosCollected": {
+      "count": 10,
+      "note": "Downloaded to collected-photos/photo-1..10.jpg (4800x3600, 4080x2296 etc) via Places Photos API. Original names in C:\\Users\\sagar\\AppData\\Local\\Temp\\opencode\\ulm-details-full.json",
+      "location": "C:\\Users\\sagar\\Desktop\\ULM\\collected-photos",
+      "use": "Replace placeholder Unsplash images in /public/images/gallery/ and hero-fallback.webp per PRD Section 07. Need to compress to WebP via squoosh.app and add caption 'Representative example' if not owner-provided."
+    },
+    "ownership": "Women-owned",
+    "category": "AutomotiveBusiness / Car Inspection / Automobile Service & Repair Workshop",
+    "verificationNote": "All fields verified live via Places API (New) on 2026-09-19. PRD Section 27 coords were wrong (17.4839,78.3236 ~5km off). Corrected to 17.4824308,78.3749938 from google maps.txt and live API."
+  },
+  "stillMissing": {
+    "email": "No email found in Google Maps - need from owner",
+    "social": "No Instagram/Facebook/Youtube found in Maps - provide if exists, else omit per PRD Section 29",
+    "servicesConfirmed": "Maps shows category AutomotiveBusiness but not detailed list. Confirm 8 services in PRD Section 14 with owner - do not claim unconfirmed services",
+    "prices": "No prices in Maps - do not invent per Section 01 IMPORTANT",
+    "websiteUri": "No website listed in Maps - use ultimatemechanics.in if owned",
+    "ogImage": "Need to create /public/og-image.jpg 1200x630 per Section 07",
+    "threeDModel": "Need to download GLB from Sketchfab per Section 06 checklist",
+    "bookingBackend": "Need to choose Formspree/SendGrid/Supabase per Section 33"
+  }
+}
