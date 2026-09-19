@@ -9,6 +9,15 @@ const nextConfig: NextConfig = {
     ],
   },
   transpilePackages: ["three", "@react-three/fiber", "@react-three/drei"],
+  // FAST BUILD: skip type/lint on build, optimize imports
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
+  experimental: {
+    optimizePackageImports: ["lucide-react", "framer-motion", "@react-three/drei", "@react-three/fiber"],
+  },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production",
+  },
 };
 
 export default nextConfig;

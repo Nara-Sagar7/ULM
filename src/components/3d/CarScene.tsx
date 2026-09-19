@@ -2,9 +2,8 @@
 
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment, ContactShadows, PerspectiveCamera, Float, OrbitControls } from "@react-three/drei";
-import { useRef, useMemo, useEffect, useState, Suspense, lazy } from "react";
+import { useRef, useMemo, useEffect, useState, Suspense } from "react";
 import * as THREE from "three";
-import { RealCar } from "./RealCar";
 
 function PremiumCar({ progress = 0, hovered = false }: { progress?: number; hovered?: boolean }) {
   const group = useRef<THREE.Group>(null);
@@ -326,10 +325,12 @@ export function CarScene({
   progress = 0,
   interactive = false,
   className,
+  transparent = false,
 }: {
   progress?: number;
   interactive?: boolean;
   className?: string;
+  transparent?: boolean;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [mounted, setMounted] = useState(false);
@@ -381,24 +382,24 @@ export function CarScene({
   }
 
   return (
-    <div ref={containerRef} className={className} style={{ background: "#0c0d10" }}>
+    <div ref={containerRef} className={className} style={{ background: transparent ? "transparent" : "#0c0d10" }}>
       <Canvas
         shadows={!isLowPower}
-        dpr={[1, isLowPower ? 1.35 : 1.8]}
+        dpr={[1, isLowPower ? 1.35 : 1.5]}
         gl={{
           antialias: !isLowPower,
-          alpha: false,
+          alpha: transparent,
           toneMapping: THREE.ACESFilmicToneMapping,
           toneMappingExposure: 1.12,
           powerPreference: "high-performance",
           stencil: false,
         }}
         onCreated={({ gl }) => {
-          // FIX: Ensure dark clear color instead of white default (was showing white in screenshots)
-          gl.setClearColor("#0c0d10", 1);
+          gl.setClearColor(transparent ? "#000000" : "#0c0d10", transparent ? 0 : 1);
         }}
         camera={{ position: [4.6, 2.2, 4.8], fov: 34 }}
-        style={{ background: "#0c0d10", width: "100%", height: "100%" }}
+        style={{ background: transparent ? "transparent" : "#0c0d10", width: "100%", height: "100%" }}
+        frameloop={interactive ? "always" : "demand"}
         // FIX: Explicit eventSource prevents R3F from calling addEventListener on null
         // See: https://github.com/pmndrs/react-three-fiber/issues/3320
         // @ts-expect-error - RefObject<HTMLDivElement | null> is compatible at runtime, fiber expects RefObject<HTMLElement>
@@ -414,24 +415,22 @@ export function CarScene({
           setWebglFailed(true);
         }}
       >
-        <Suspense fallback={null}>
           <ambientLight intensity={0.55} />
           <directionalLight castShadow={!isLowPower} position={[6.5, 9, 4.5]} intensity={1.65} shadow-mapSize={[1024, 1024]} shadow-bias={-0.00012} shadow-camera-near={0.5} shadow-camera-far={20} />
           <directionalLight position={[-5, 7, -4]} intensity={0.75} color="#8fb4ff" />
           <spotLight position={[0, 7.5, 0]} intensity={140} angle={0.55} penumbra={0.75} decay={2} distance={14} castShadow={!isLowPower} shadow-mapSize={[512, 512]} />
           <spotLight position={[3, 5, 3]} intensity={45} angle={0.4} penumbra={0.6} color="#FFE9A8" decay={2} />
 
-          {/* FIX: Keep local HDR Environment for metallic reflections, but remove Lightformer that caused white blowout at top of disassembly */}
-          <Environment files="/textures/hdri-studio.hdr" environmentIntensity={0.65} background={false} />
-
           <PerspectiveCamera makeDefault position={[4.8, 2.0, 5.0]} fov={32} />
           <fog attach="fog" args={["#0A0A0B", 9, 19]} />
 
           <WorkshopFloor />
+          <Suspense fallback={null}>
+            <Environment preset="studio" environmentIntensity={0.6} background={false} />
+          </Suspense>
           <PremiumCar progress={progress} hovered={interactive} />
           <ContactShadows position={[0, -0.60, 0]} opacity={0.45} scale={10} blur={isLowPower ? 1.5 : 2.4} far={4} color="#000000" />
           {interactive && <OrbitControls enablePan={false} minDistance={3} maxDistance={8} minPolarAngle={Math.PI / 6} maxPolarAngle={Math.PI / 2.4} autoRotate autoRotateSpeed={0.35} enableDamping dampingFactor={0.06} />}
-        </Suspense>
       </Canvas>
       {/* Subtle overlay to ensure dark blending during Environment load */}
       <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-transparent via-transparent to-black/20" />

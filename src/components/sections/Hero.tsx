@@ -148,10 +148,10 @@ export function Hero() {
               <span className="text-[10px] tracking-wide text-white/30 font-mono hidden sm:block">17.4824°N 78.3749°E</span>
             </div>
 
-            {/* 3D canvas */}
+            {/* 3D canvas - transparent so fallback image shows while 3D loads (fast first paint) */}
             <div className="absolute inset-0 top-10">
               {mounted ? (
-                <CarScene className="w-full h-full" progress={0} interactive />
+                <CarScene className="w-full h-full" progress={0} interactive transparent />
               ) : (
                 <div className="w-full h-full bg-[#0c0d10] animate-pulse" />
               )}
